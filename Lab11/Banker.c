@@ -2,9 +2,9 @@
 #define P 5
 #define R 3
 int main(){
-    int allocation[P][R] = {{0,1,0},{2,0,0},{1,1,0},{1,0,0},{2,1,0}};
-    int max[P][R] = {{4,4,1},{4,2,1},{7,3,0},{8,1,1},{2,2,2}};
-    int availible[R]={2,1,2};
+    int allocation[P][R] = {{0,1,0},{2,0,0},{3,0,2},{2,1,1},{0,0,2}};
+    int max[P][R] = {{7,5,3},{3,2,2},{9,0,2},{4,2,2},{5,3,3}};
+    int availible[R]={3,3,2};
 
     int need[P][R];
     int finish[P]={0};
