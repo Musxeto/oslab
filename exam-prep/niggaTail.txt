@@ -1,0 +1,10 @@
+ 2781  gunzip fork.gz
+ 2782  ls
+ 2783  gunzip temp.txt.gz
+ 2784  tar -czf commands.tar.gz commands-prep
+ 2785  ls
+ 2786  tar -xzf commands.tar.gz
+ 2787  ls
+ 2788  tar -tzf commands.tar.gz\n
+ 2789  ps | spotify
+ 2790  ps

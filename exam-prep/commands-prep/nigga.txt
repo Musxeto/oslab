@@ -1,0 +1,2790 @@
+    1  sudo apt update\nsudo apt install i3 i3status i3lock i3-wm\n
+    2  sudo nano /etc/lightdm/lightdm.conf\n
+    3  sudo nano /etc/lightdm/lightdm.conf.d/01-i3.conf\n
+    4  sudo dpkg-reconfigure lightdm\n
+    5  sudo systemctl restart lightdm\n
+    6  ~/.config/i3/config
+    7  ^[[200~mkdir -p ~/.config/i3
+    8  cp /etc/i3/config ~/.config/i3/config
+    9  mkdir -p ~/.config/i3\ncp /etc/i3/config ~/.config/i3/config\n
+   10  nano ~/.config/i3/config\n
+   11  code ~/.config/i3/config\n
+   12  i3
+   13  sudo apt remove i3 i3status i3lock i3-wm\n
+   14  ^[[200~sudo add-apt-repository ppa:aslatter/ppa
+   15  sudo apt update
+   16  sudo add-apt-repository ppa:aslatter/ppa\nsudo apt update\nsudo apt install alacritty\n
+   17  alacritty --version\n
+   18  sudo update-alternatives --config x-terminal-emulator\n
+   19  xdg-mime default alacritty.desktop x-scheme-handler/terminal\n
+   20  ~/.config/alacritty/alacritty.yml
+   21  ls -l ~/.config/alacritty/alacritty.yml\n
+   22  sudo chown $USER:$USER ~/.config/alacritty/alacritty.yml\n
+   23  chmod 644 ~/.config/alacritty/alacritty.yml\n
+   24  nano ~/.config/alacritty/alacritty.yml\n
+   25  alacritty\n
+   26  echo $SHELL\n
+   27  nano ~/.config/alacritty/alacritty.yml\n
+   28  alactritty
+   29  alacritty
+   30  sudo update-alternatives --config x-terminal-emulator\n
+   31  xdg-settings set default-web-browser alacritty.desktop\n
+   32  nano ~/.config/alacritty/alacritty.yml\n
+   33  cat ~/.config/alacritty/alacritty.yml\n
+   34  nano ~/.config/alacritty/alacritty.yml\n
+   35  alacritty migrate\n
+   36  sudo apt install picom\n
+   37  nano ~/.config/picom.conf\n
+   38  picom --config ~/.config/picom.conf &\n
+   39  ^[[200~gsettings set org.cinnamon.desktop.wm.preferences use-legacy-mouse-cursor false
+   40  gsettings set org.cinnamon.desktop.wm.preferences use-legacy-mouse-cursor false\n
+   41  gsettings set org.cinnamon.desktop.wm.preferences use-compositing false\n
+   42  killall muffin\n
+   43  picom --config ~/.config/picom.conf &\n
+   44  picom --config ~/.config/picom.conf
+   45  killall cinnamon\nkillall -9 picom\nkillall -9 gnome-shell\n
+   46  picom --config ~/.config/picom.conf
+   47  neofetch
+   48  nano ~/.config/picom.conf\n
+   49  nano ~/.config/alacritty/alacritty.yml\n
+   50  print colos
+   51  print colors
+   52  print_colors
+   53  nano ~/.config/alacritty/alacritty.yml\n
+   54  ALACRITTY_LOG
+   55  $ALACRITTY_LOG
+   56  cat /tmp/Alacritty-5476.log\n
+   57  rm /tmp/Alacritty-5476.log\n
+   58  rm /tmp/Alacritty-5576.log\n
+   59  rm /tmp/Alacritty-5376.log\n
+   60  rm /tmp/Alacritty-5475.log\n
+   61  sudo rm -rf /tmp/Alacritty*\n
+   62  killall muffin metacity\n
+   63  pgrep picom\n
+   64  killall picom\n
+   65  nano ~/.config/alacritty/alacritty.toml\n
+   66  picom --config ~/.config/picom.conf &\n
+   67  sudo rm -rf /tmp/Alacritty*.log\n
+   68  alacritty\n
+   69  nano ~/.config/alacritty/alacritty.toml\n
+   70  neofetch
+   71  nano ~/.config/alacritty/alacritty.toml\n
+   72  cd Documents
+   73  git clone https://github.com/ryanoasis/nerd-fonts.git\n
+   74  git clone https://github.com/ryanoasis/nerd-fonts.git/patched-fonts/SourceCodePro\n
+   75  ~/.config/neofetch/config.conf\n
+   76  sudo ~/.config/neofetch/config.conf\n
+   77  neofetch --config none > ~/.config/neofetch/config.conf\n
+   78  sudo ~/.config/neofetch/config.conf\n
+   79  ~/.config/neofetch/config.conf\n
+   80  nano ~/.config/neofetch/config.conf\n
+   81  mkdir -p ~/.local/share/fonts\ncp nerd-fonts/patched-fonts/SourceCodePro/*.ttf ~/.local/share/fonts/\nfc-cache -fv
+   82  ^[[200~fc-list | grep "Source Code Pro"
+   83  fc-list | grep "Source Code Pro"\n
+   84  killall alacritty\nalacritty\n
+   85  fc-list | grep "Source Code Pro"\n
+   86  cd Downloads
+   87  cd SourceCodePro
+   88  ls
+   89  mkdir -p ~/.local/share/fonts\ncp *.ttf ~/.local/share/fonts\n
+   90  sudo mkdir -p /usr/share/fonts/truetype/source-code-pro\nsudo cp *.ttf /usr/share/fonts/truetype/source-code-pro\n
+   91  fc-cache -fv\n
+   92  fc-list | grep "Source Code Pro"\n
+   93  sudo mkdir -p /usr/share/fonts/truetype/source-code-pro\nsudo cp *.ttf /usr/share/fonts/truetype/source-code-pro\n
+   94  fc-cache -fv\n
+   95  fc-list | grep "Source Code Pro"\n
+   96  sudo fc-cache -fv\n
+   97  fc-list | grep "Source Code Pro"\n
+   98  fc-cache -fv\n
+   99  fc-list | grep "Source Code Pro"\n
+  100  neofetch
+  101  cd ~/.config/neofetch\n
+  102  nano config.conf\n
+  103  neofetch
+  104  nano ~/.config/alacritty/alacritty.toml\n
+  105  cat ~/.config/alacritty/alacritty.toml\n
+  106  nano ~/.config/alacritty/alacritty.toml\n
+  107  killall alacritty
+  108  fc-list | grep "Fira"\n
+  109  live_config_reload = true\nworking_directory = "None"\n\n[bell]\nanimation = "EaseOutCirc"\ncolor = "0x464d6a"\nduration = 0\n\n[colors]\ndraw_bold_text_with_bright_colors = false\n\n[colors.bright]\nblack = "0x4b004b"  # Dark purple\nblue = "0xa3a0f0"   # Light purplish-blue\ncyan = "0xa8e0e0"   # Soft cyan with purple tones\ngreen = "0xa1e5a1"  # Soft green with a hint of purple\nmagenta = "0x9c64a6" # Purple magenta\nred = "0xe5006a"     # Strong purple-red\nwhite = "0xffffff"\nyellow = "0x9c69ff"  # Yellow with purple tinge\n\n[colors.normal]\nblack = "0x3b0a45"  # Dark purple\nblue = "0x9b68e3"   # Bright purple-blue\ncyan = "0x9ae3ff"   # Light cyan\ngreen = "0x5e8c6b"  # Muted green\nmagenta = "0x7e57c5" # Rich purple\nred = "0xfc3f9d"     # Strong purple-red\nwhite = "0xd0d0d0"   # Light gray\nyellow = "0xb4b3ff"  # Soft purple-yellow\n\n[colors.primary]\nbackground = "0x2a0d3d"  # Deep purple background\nforeground = "0xd0d0d0"  # Light gray text\n\n[cursor]\nblink_interval = 500\nthickness = 0.15\nunfocused_hollow = true\n\n[cursor.style]\nblinking = "On"\nshape = "Block"\n\n[font]\nsize = 12\nfamily = "Monospace"  # Using Monospace as the default built-in font\n\n[font.bold]\nfamily = "Monospace"\nstyle = "Bold"\n\n[font.bold_italic]\nfamily = "Monospace"\nstyle = "Bold Italic"\n\n[font.italic]\nfamily = "Monospace"\nstyle = "Italic"\n\n[font.normal]\nfamily = "Monospace"\nstyle = "Regular"\n\n[font.offset]\nx = 0\ny = 0\n\n[mouse]\nhide_when_typing = false\n\n[[mouse.bindings]]\naction = "PasteSelection"\nmouse = "Middle"\n\n[[mouse.bindings]]\naction = "Copy"\nmouse = "Right"\n\n#[mouse.double_click]\n#threshold = 300\n\n#[mouse.triple_click]\n#threshold = 300\n\n[scrolling]\nhistory = 500\nmultiplier = 1\n\n[window]\ndecorations = "full"\ndecorations_theme_variant = "Dark"\ndynamic_padding = true\ndynamic_title = true\nopacity = 0.85  # Slightly higher opacity for a smoother background effect\nstartup_mode = "Windowed"\ntitle = "Alacritty"\n\n[window.class]\ngeneral = "Alacritty"\ninstance = "Alacritty"\n\n[window.padding]\nx = 5\ny = 5\n
+  110  nano ~/.config/alacritty/alacritty.toml\n
+  111  nano ~/.config/picom.conf\n
+  112  picom --config ~/.config/picom.conf &\n
+  113  cinnamon-settings 
+  114  gsettings
+  115  gsettings set org.cinnamon.desktop.wm.preferences compositing-manager false\n
+  116  cinnamon-settings windows\n
+  117  /.config
+  118  ./config
+  119  ls ~/.config/cinnamon/\n
+  120  nano ~/.config/cinnamon/cinnamon-settings.conf\n
+  121  ls ~/.config/compiz/\n
+  122  sudo apt update cinnamon
+  123  dconf write /org/cinnamon/desktop/wm/preferences/compositing-manager false\n
+  124  dconf read /org/cinnamon/desktop/wm/preferences/compositing-manager\n
+  125  cinnamon-settings windows\n
+  126  cinnamon-settings\n
+  127  nano ~/.xprofile\n
+  128  picom --config ~/.config/picom.conf &\n
+  129  dconf read /org/cinnamon/desktop/wm/preferences/compositing-manager\n
+  130  ps aux | grep -E 'compton|picom|cinnamon'\n
+  131  killall picom\nkillall compton\nkillall cinnamon\n
+  132  nano ~/.xprofile
+  133  picom --config ~/.config/picom.conf &\n
+  134  sudo apt update\nsudo apt install i3\n
+  135  exec --no-startup-id picom --config ~/.config/picom.conf\n
+  136  nano ~/.xsession
+  137  nano ~/.xprofile
+  138  cat /etc/lightdm/lightdm.conf
+  139  dpkg -l | grep i3
+  140  ls /usr/share/xessions/
+  141  sudo ls /usr/share/xessions/
+  142  sudo apt install i3
+  143  ls /usr/share/xessions/
+  144  sudo nano /usr/share/xessions/i3.desktop
+  145  exit
+  146  sudo apt remove i3
+  147  sudo apt install i3 -y
+  148  i3 -version
+  149  nano ~/.config/i3/config
+  150  sudo apt i3status-rust
+  151  sudo apt install i3status-rust
+  152  nano ~/.config/i3/config\n
+  153  i3-msg reload\n
+  154  pgrep i3\n
+  155  i3\n
+  156  sudo apt-get install --reinstall i3\n
+  157  i3-sensible-editor /home/mus/.config/i3/config\n
+  158  i3-msg reload\n
+  159  i3 -C\n
+  160  i3-sensible-editor /home/mus/.config/i3/config\n
+  161  i3-msg reload\n
+  162  i3\n
+  163  neofetch
+  164  ^[[200~chsh -s /bin/bash
+  165  chsh -s /bin/bash\n
+  166  echo $SHELL\n
+  167  chsh -s $(which zsh)\n
+  168  chsh -s /bin/zsh\n
+  169  tail ~/.bashrc
+  170  tail ~/.zshrc
+  171  cat ~/.bash_profile\n
+  172  nano ~/.bash_pro\n
+  173  cat ~/.bash_pro*\n
+  174  .bash_profile\n
+  175  nano .bash_profile\n
+  176  nano ~/.xinitrc
+  177  sudo apt-get install i3status
+  178  exit
+  179  i3-dump-logs
+  180  i3-dump-logs > i3_log.txt
+  181  i3-dump-log > i3_log.txt
+  182  i3-dump-log
+  183  DISPLAY=0 i3-dump-log
+  184  DISPLAY=:0 i3-dump-log
+  185  DISPLAY=:0 i3-dump-log --heko
+  186  DISPLAY=:0 i3-dump-log --help
+  187  i3-dump-log --help
+  188  Display=:0 i3-dump-log | head
+  189  sudo apt udate
+  190  sudo apt update && sudo apt install -y \\n    libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev \\n    libxcb-util0-dev libxcb-icccm4-dev libyajl-dev \\n    libstartup-notification0-dev libxcb-randr0-dev \\n    libev-dev libxcb-cursor-dev libxcb-xinerama0-dev \\n    libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev \\n    autoconf libxcb-xrm0 libxcb-xrm-dev automake \\n    libxcb-shape0-dev pkg-config meson suckless-tools\n
+  191  sudo apt-get install \\n    libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev \\n    libxcb-util0-dev libxcb-icccm4-dev libyajl-dev \\n    libstartup-notification0-dev libxcb-randr0-dev \\n    libev-dev libxcb-cursor-dev libxcb-xinerama0-dev \\n    libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev \\n    autoconf libxcb-xrm0 libxcb-xrm-dev automake \\n    libxcb-shape0-dev pkg-config meson suckless-tools
+  192  sudo apt-get install i3blocks
+  193  i3blocks -v
+  194  ~/.xinitrc
+  195  cat ~/.xinitrc
+  196  exec i3
+  197  cat ~/.xinitrc
+  198  nano ~/.condif/i3/congig
+  199  nano ~/.config/i3/config
+  200  exit
+  201  nano ~/.config/i3/config
+  202  alacritty -v
+  203  code
+  204  dmenu -v
+  205  code
+  206  nano ~/.config/i3/config
+  207  spotify
+  208  sudo apt-get install rofi
+  209  sudo apt-get install lxappearence
+  210  sudo apt-get install lxappearance
+  211  /usr/share/applications
+  212  git clone https://github.com/vivien/i3blocks
+  213  cd i3blocks
+  214  /autogen.sh
+  215  ./autogen.sh
+  216  ./configure
+  217  make
+  218  sudo make install
+  219  $HOME/.config/i3blocks
+  220  cd ..
+  221  $HOME/.config/i3blocks
+  222  HOME/.config/i3blocks
+  223  /.config/i3blocks
+  224  ~/.config/i3blocks
+  225  sudo apt-get install i3status
+  226  /.i3/
+  227  /.config/i3
+  228  /.config/i3/config
+  229  sudo apt-get install i3status\n
+  230  sudo apt-get install i3blocks\n
+  231  sudo apt-get install polybar\n
+  232  ~/.config/i3/config
+  233  sudo ~/.config/i3/config
+  234  i3status\n
+  235  sudo apt-get update\nsudo apt-get upgrade\nsudo apt-get install -f\n
+  236  ~/.config/i3/config
+  237  cat ~/.config/i3/config
+  238  nano ~/.config/i3/config\n
+  239  polybar example\n
+  240  feh --bg-scale /path/to/your/wallpaper.jpg\n
+  241  sudo apt-get install feh
+  242  feh --bg-scale /path/to/your/wallpaper.jpg\n
+  243  nano ~/.config/i3/config\n
+  244  nano ~/.config/polybar/config\n
+  245  sudo nano ~/.config/polybar/config\n
+  246  chmod u+w /home/mus/.config/polybar/config\n
+  247  mkdir -p /home/mus/.config/polybar/\n
+  248  df -h\n
+  249  mkdir -p ~/.config/polybar\ntouch ~/.config/polybar/config\n
+  250  nano ~/.config/polybar/config\n
+  251  chmod u+w ~/.config/polybar/config\n
+  252  polybar example\n
+  253  mv ~/.config/polybar/config ~/.config/polybar/config.ini\n
+  254  sudo nano ~/.config/polybar/config.ini\n
+  255  nano ~/.config/polybar/config.ini\n
+  256  polybar example\n
+  257  nano ~/.config/polybar/config.ini\n
+  258  polybar example\n
+  259  nano ~/.config/polybar/config.ini\n
+  260  polybar example\n
+  261  bar/i3_bar\n
+  262  nano ~/.config/polybar/config.ini\n
+  263  bar/i3_bar\n
+  264  nano ~/.config/polybar/config.ini\n
+  265  ls  ~/.config/polybar/\n
+  266  nano ~/.config/polybar/13_bar.sh\n
+  267  nano ~/.config/polybar/colors.ini\n
+  268  sudo apt-get install i3blocks\n
+  269  polybar example\n
+  270  polybar i3_bar\n
+  271  nano ~/.config/polybar/colors.ini\n
+  272  nano ~/.config/polybar/config.ini\n
+  273  nano ~/.config/i3/config\n
+  274  polybar i3_bar\n
+  275  sudo apt install fonts-font-awesome fonts-iosevka\n\n
+  276  sudo apt-get install fonts-font-awesome fonts-iosevka\n\n
+  277  nano ~/.config/i3/config\n
+  278  i3
+  279  bar/i3_bar\n
+  280  nano ~/.config/i3/config\n
+  281  bar/i3_bar\n
+  282  polybar i3_bar\n
+  283  ;==========================================================\n;\n;\n;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗\n;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗\n;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝\n;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗\n;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║\n;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝\n;\n;\n;   To learn more about how to configure Polybar\n;   go to https://github.com/polybar/polybar\n;\n;   The README contains a lot of information\n;\n;==========================================================\n\n[colors]\nbackground = #2d353b\nbackground-alt = #373B41\nforeground = #F3F5D9\nprimary = #b9cef8\npink = #f1739d\nblue = #7FBBB3\nyellow = #dbbc7f\ninactive = #859289\nsecondary = #8ABEB7\nalert = #A54242\ndisabled = #707880\n\n# This is to set the distance between the modules\n[padding]\nmodules = 20px\n\n# Gradient Set-up\n[gradient]\ncolor-1 = #9DA9A0\ncolor-2 = #859289 \ncolor-3 = #475258 \n# color 1 for clock background\n# color 2 for first modules\n# color 3 for second modules\n\n[bar/example]\nwidth = 100%\nheight = 30 pt\nradius = 10\n# offset-y = 6\n# offset-x = 0.5%\nborder-color = #00000000\nborder-left-size = 15\nborder-right-size = 15\nborder-top-size = 15\n\n# dpi = 96\n\noverride-redirect = false\n\nbackground = ${colors.background}\nforeground = ${colors.foreground}\n\nline-size = 3pt\n\n# border-size = 4pt\n# border-color = #00000000\n\npadding-left = 1\npadding-right = 1\n\nmodule-margin = 0\n\n# separator = |\n# separator = 󰇙\n# separator-foreground = ${colors.disabled}\n\n# This character ; next to the fonts decides the vertical alignment.\n# So the bigger the number after the ; , the lower the content will be.\n\nfont-0 = CodeNewRomanNerdFont-Bold:weight=bold:size=14;2\nfont-1 = CodeNewRomanNerdFont-Bold:weight=bold:size=16;2\nfont-2 = CodeNewRomanNerdFont-Bold:weight=bold:size=32;2\nfont-3 = Roboto:style=black:size=15;4\nfont-4 = Roboto:style=black:size=13;2\n\nmodules-left = xworkspaces usdrate eurrate xwindow\nmodules-center = text5 text3 text1 date text2 text4 text6\nmodules-right = filesystem pulseaudio backlight xkeyboard memory cpu wlan eth battery battery2 battery3\n\n# cursor-click = pointer\n# cursor-scroll = ns-resize\n\nenable-ipc = true\n\n# tray-position = right\n\n# wm-restack = generic\n# wm-restack = bspwm\n# wm-restack = i3\n\n# override-redirect = true\n\n[module/xworkspaces]\ntype = internal/xworkspaces\npin-workspaces = true\n\nlabel-active = %name%\nlabel-active-foreground = ${colors.yellow}\nlabel-active-padding = 1\n\nlabel-occupied = %name%\nlabel-occupied-foreground = ${colors.inactive}\nlabel-occupied-padding = 1\n\nlabel-urgent = %name%\nlabel-urgent-background = ${colors.alert}\nlabel-urgent-padding = 1\n\nlabel-empty = %name%\nlabel-empty-foreground = ${colors.disabled}\nlabel-empty-padding = 1\n\n# Currency Module\n# Polybar-XO-Currency\n[module/usdrate]\nformat = <label>\nlabel = %{F#dbbc7f}%{F#F3F5D9}  %output%\ntype = custom/script\nexec = "python ~/.config/polybar/scripts/polybar-xo-currency.py try usd"\ninterval=600\nlabel-padding-left = ${padding.modules}\nlabel-font = 5\n\n[module/eurrate]\nformat = <label>\nlabel = %{F#dbbc7f}%{F#F3F5D9}  %output%\ntype = custom/script\nexec = "python ~/.config/polybar/scripts/polybar-xo-currency.py try eur"\ninterval=600\nlabel-padding-left = ${padding.modules}\nlabel-font = 5\n\n[module/tray]\ntype = internal/tray\n# tray-spacing = 20\ntray-padding = 20px\ntray-foreground = #F0C674\n\n[module/pulseaudio]\ntype = internal/pulseaudio\n\nformat-volume-prefix = " "\nformat-volume-prefix-foreground = ${colors.yellow}\nformat-volume = <label-volume>\n\nlabel-volume = %percentage%%\nlabel-volume-padding-right = ${padding.modules}\nlabel-volume-padding-left = 1\n\nlabel-muted = muted\nlabel-muted-foreground = ${colors.disabled}\n\n# [module/xkeyboard]\n# type = internal/xkeyboard\n# blacklist-0 = num lock\n\n# label-layout = %layout%\n# label-layout-foreground = ${colors.primary}\n\n# label-indicator-padding = 2\n# label-indicator-margin = 1\n# label-indicator-foreground = ${colors.background}\n# label-indicator-background = ${colors.secondary}\n\n# [module/memory]\n# type = internal/memory\n# interval = 2\n# format-prefix = "RAM "\n# format-prefix-foreground = ${colors.primary}\n# label = %percentage_used:2%%\n\n\n[module/backlight]\ntype = internal/backlight\ncard = amdgpu_bl0\nuse-actual-brightness = true\nenable-scroll = true\n\nformat = <label>\nformat-prefix = "󰃠  "\nformat-prefix-foreground = ${colors.yellow}\nlabel = %percentage%%\nlabel-padding-right = ${padding.modules}\nlabel-font = 5\n\n[module/cpu]\n# type = internal/cpu\n# interval = 2\n# format-prefix = "CPU "\n# format-prefix-foreground = ${colors.primary}\n# label = %percentage:2%%\n\n[network-base]\ntype = internal/network\ninterval = 5\nformat-connected = <label-connected>\nformat-disconnected = <label-disconnected>\nlabel-disconnected = %{F#F0C674}%ifname%%{F#707880} disconnected\n\n\n[module/wlan]\ninherit = network-base\ninterface-type = wireless\nformat-connected-prefix = "%{F#dbbc7f}󰖩%{F-}  "\nlabel-connected = On\nlabel-connected-padding-right = ${padding.modules}\nlabel-connected-font = 5\n\n[module/eth]\ninherit = network-base\ninterface-type = wired\nlabel-connected = %{F#F0C674}%ifname%%{F-} %local_ip%\n\n######################################\n#######    Date/Time Gradient  #######\n\n[module/text1]\ntype = custom/text\ncontent = "\M-:"\ncontent-foreground = ${gradient.color-1}\ncontent-background = ${gradient.color-2}\ncontent-font = 3\n\n[module/text2]\ntype = custom/text\ncontent = "\M-<"\ncontent-foreground = ${gradient.color-1}\ncontent-background = ${gradient.color-2}\ncontent-font = 3\n\n[module/text3]\ntype = custom/text\ncontent = "\M-:"\ncontent-foreground = ${gradient.color-2}\ncontent-background = ${gradient.color-3}\ncontent-font = 3\n\n[module/text4]\ntype = custom/text\ncontent = "\M-<"\ncontent-foreground = ${gradient.color-2}\ncontent-background = ${gradient.color-3}\ncontent-font = 3\n\n[module/text5]\ntype = custom/text\ncontent = "\M-:"\ncontent-foreground = ${gradient.color-3}\ncontent-font = 3\n\n[module/text6]\ntype = custom/text\ncontent = "\M-<"\ncontent-foreground = ${gradient.color-3}\ncontent-font = 3\n\n######################################\n#######    Date/Time Gradient  #######\n\n[module/date]\ntype = internal/date\ninterval = 1\n\ndate = %H:%M\ndate-alt = "  %a %d %b - %I:%M %p  "\n\nlabel = "  %date%  "\nlabel-foreground = ${colors.background}\nlabel-background = #9DA9A0\nlabel-font = 4\n\n[module/battery]\ntype = internal/battery\nbattery = BAT0\nadapter = ADP0\ntime-format = %H:%m\nformat-charging-prefix ="%{F#dbbc7f}%{F-}  "\nlabel-charging = %percentage%%\nlabel-charging-padding-right = ${padding.modules}\nlabel-charging-font = 5\n\nformat-discharging-prefix ="%{F#dbbc7f}%{F-}  "\nlabel-discharging = %percentage%%\nlabel-discharging-padding-right = ${padding.modules}\nlabel-discharging-font = 5\n\n[module/battery2]\ntype = internal/battery\nbattery = BAT0\nadapter = ADP0\ntime-format = %H:%M\nformat-charging-prefix = "%{F#dbbc7f}󰜷%{F-} "\nlabel-charging = %consumption%W\nlabel-charging-padding-right = ${padding.modules}\nlabel-charging-font = 5\n\nformat-discharging-prefix = "%{F#dbbc7f}󰜮%{F-} "\nlabel-discharging = %consumption%W\nlabel-discharging-padding-right = ${padding.modules}\nlabel-discharging-font = 5\n\n[module/battery3]\ntype = internal/battery\nbattery = BAT0\nadapter = ADP0\ntime-format = %H:%M\nformat-charging-prefix = "%{F#dbbc7f}%{F-}  "\nlabel-charging = charging\nlabel-charging-padding-right = 1\nlabel-charging-font = 5\n\nformat-discharging-prefix = "%{F#dbbc7f}%{F-}  "\nlabel-discharging = %time%\nlabel-discharging-padding-right = 1\nlabel-discharging-font = 5\n\n[settings]\nscreenchange-reload = true\npseudo-transparency = true\n\n; vim:ft=dosini
+  284  nano ~/.config/i3/config\n
+  285  mv ~/.config/polybar/config ~/.config/polybar/config.ini\n
+  286  sudo apt install fonts-roboto\n
+  287  fireforx
+  288  cd Documents
+  289  git clone https://git.chelan.cc/engineering/chelan.git
+  290  cd chelan/Bart/Mobile
+  291  npm i
+  292  npm start
+  293  cd Documents
+  294  cd chelan/Bart/Mobile
+  295  code
+  296  firefox
+  297  nano ~/.config/i3/config\n
+  298  sudo apt install feh\n
+  299  feh --bg-scale wp4409290-playboy-carti-desktop-wallpapers.png
+  300  ~/.config/i3/config
+  301  sudo ~/.config/i3/config
+  302  nano ~/.config/i3/config\n
+  303  nano ~/.config/alacritty/alacritty.yml\n
+  304  neofetch
+  305  nano ~/.config/alacritty/alacritty.yml\n
+  306  sudo apt install picom\npicom &\n
+  307  mkdir -p ~/.config/picom\nnano ~/.config/picom/picom.conf\n
+  308  picom &
+  309  ps aux | grep -E "xcompmgr|compton|picom"\n
+  310  killall xcompmgr\n
+  311  picom &\n
+  312  exec --no-startup-id xcompmgr\n
+  313  ~/.config/i3/config
+  314  nano ~/.config/i3/config
+  315  nano ~/.config/i3/config\n
+  316  \nnano ~/.config/picom/picom.conf\n
+  317  picom &
+  318  \nnano ~/.config/picom/picom.conf\n
+  319  code .
+  320  npm start
+  321  picom &
+  322  nano ~/.config/picom.conf
+  323  picom &
+  324  pkill picom && picom &\n
+  325  picom &
+  326  nano ~/.config/picom.conf
+  327  picom --backend glx --diagnostics\n
+  328  picom &
+  329  nano ~/.config/picom.conf
+  330  picom &
+  331  pkill picom\n
+  332  picom &
+  333  nano ~/.config/picom.conf
+  334  nano ~/.config/alacritty/alacritty.yml
+  335  nano ~/.config/i3/config
+  336  nano ~/.config/picom.conf
+  337  exec alacritty\n
+  338  npm start
+  339  nano ~/.config/alacritty/alacritty.yml
+  340  export TERM=xterm-256color\n
+  341  pkill alacritty && alacritty\n
+  342  echo -e "\033[48;5;0mTest"  # This should print a black background with the text\n
+  343  alacritty --config-file ~/.config/alacritty/alacritty.yml\n
+  344  alacritty migrate
+  345  alacritty --config-file ~/.config/alacritty/alacritty.yml\n
+  346  alacritty migrate
+  347  alacritty --config-file ~/.config/alacritty/alacritty.yml\n
+  348  alacritty migrate
+  349  nano ~/.zshrc
+  350  npm start
+  351  git checkout mustafaDev
+  352  git checkout musDev
+  353  git checkout MustafaDev
+  354  git pull origin main
+  355  ssh-keygen -t rsa -b 4096 -C "mustafamalikawan786@gmail.com"\n
+  356  cat ~/.ssh/id_rsa.pub\n
+  357  ssh -T git@gitlab.com
+  358  cat ~/.ssh/id_rsa.pub
+  359  ssh -T git@gitlab.com
+  360  ssh -T git@gitlab.com\n
+  361  ssh-keygen
+  362  git
+  363  gitbash
+  364  ssh-keygen
+  365  cat yes.pub
+  366  ssh -T git@gitlab.com\n
+  367  eval "$(ssh-agent -s)"\n
+  368  ssh-add ~/.ssh/id_rsa\n
+  369  ssh-add -l\n
+  370  nano ~/.ssh/config\n
+  371  chmod 600 ~/.ssh/id_rsa\n
+  372  ssh -T git@gitlab.com\n
+  373  nano ~/.ssh/id_rsa.pub
+  374  cat ~/.ssh/id_rsa.pub
+  375  ssh -T git@gitlab.com\n
+  376  nano ~/.ssh/config\n
+  377  rm -rf ~/.ssh/*\n
+  378  rm ~/.ssh/config\n
+  379  ssh-add -D\n
+  380  ssh -T git@gitlab.com\n
+  381  ssh-keygen -t ed25519 -C
+  382  ssh-keygen -t ed25519 -C "mustafamalikawan786@gmail.com"
+  383  eval "$(ssh-agent -s)"\nssh-add ~/.ssh/id_ed25519\n
+  384  cat ~/.ssh/id_ed25519.pub\n
+  385  ssh -T git@gitlab.com\n
+  386  cat ~/.ssh/id_ed25519.pub
+  387  eval "$(ssh-agent -s)"\nssh-add ~/.ssh/id_ed25519\n
+  388  ssh-add -l\n
+  389  cat ~/.ssh/id_ed25519.pub
+  390  eval "$(ssh-agent -s)"\n
+  391  ssh-add ~/.ssh/id_ed25519\n
+  392  ssh-add -l\n
+  393  nano ~/.ssh/config
+  394  ^A
+  395  ssh -T git@gitlab.com\n
+  396  nano ~/.ssh/config
+  397  ssh -T git@gitlab.com\n
+  398  eval "$(ssh-agent -s)"\nssh-add ~/.ssh/id_ed25519\nssh-add -l\n
+  399  nano ~/.ssh/config\n
+  400  chmod 600 ~/.ssh/id_ed25519\nchmod 644 ~/.ssh/id_ed25519.pub\n
+  401  ssh -T git@gitlab.com\n
+  402  git pull
+  403  ssh -T git@gitlab.com\n
+  404  ssh-keygen -o -t rsa -C 'mustafamalikawan786@gmail.com'
+  405  cat /home/mus/.ssh/id_rsa.pub
+  406  ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDr8llMGKFwxVasNDoJzC0zOIuQ7FQy9t4hprR7C/8flhOLwd/QCX5fpOS8SWxTAvNJJUF0roHQ+QvnF8r1l8wa2Vsgtfi/WVW86sziVqhuFGOMIaeJogvYE9cYkx9G4hI3tk+w5tE0yIEMJ+6QulOf7iOYSqhpID98S4CMw89A4sW6bHUMefY/mN81bJMgIe8vk8TAZBmql5xLQlnG5fjnNYLOTnHgRhOvI2gjixClu5aoLLb8crrMlsykoRk30qz8QjoUD2VGe9eiIN/kTNR/2x3Vv5+LYWEWIsH7INZMz74E46wekP9MdN7wt23Ogskkypv0+Yo+thG49gVXrDvOgrAuV+KToUOZroGNoLHAu90gai+zEcFv3E8/h8t9Aa4R9Jy6Qf1Kqcyqs9bgkejzf/XG9jt1BvVDf6Zm/3wzMzFdglIer0GPndKHxWbivS5o2L3kCmFSPUczJ/zfbyxitGGcIqj/C4RrlitXHJWAPY1OApeEqTNbIrEFOl+aguc= mustafamalik
+  407  eval "$(ssh-agent -s)"
+  408  clip - ~/.ssh/id_rsa.pub
+  409  cat - ~/.ssh/id_rsa.pub
+  410  cat ~/.ssh/id_rsa.pub
+  411  ssh -T git@gitlab.com\n
+  412  ssh-add -l\n
+  413  git pull origin main
+  414  ssh -T git@gitlab.com\n
+  415  cd Documents/chelan/Bart/Mobile
+  416  code
+  417  nano ~/.config/picom.conf
+  418  alacritty --config-file ~/.config/alacritty/alacritty.yml\n
+  419  alacritty migrate
+  420  exec alacritty\n
+  421  git push
+  422  npm start
+  423  pwd
+  424  npm start
+  425  git pull
+  426  cd Documents
+  427  cat > access.txt
+  428  cat access.txt
+  429  git checkout MusDev
+  430  git checkout musDev
+  431  git checkout mustafadev
+  432  git checkout MustafaDev
+  433  git pull origin main
+  434  cat Documents/access
+  435  cat Documents/access.txt
+  436  git fetch origin\n
+  437  git merge origin/main\n
+  438  git add .
+  439  pwd
+  440  npm start
+  441  git commit -m"add edit product page fix"\n
+  442  git push
+  443  cat Documents/access.txt
+  444  npm start
+  445  expo start --lan\n
+  446  npm  start --lan\n
+  447  npm start
+  448  cd Documents/chelan/Bart/Mobile
+  449  code
+  450  npm start
+  451  git add .
+  452  git commit -m"some changes"
+  453  git push
+  454  cat Documents/access.txt
+  455  git add .
+  456  git commit -m"showing owned products"
+  457  git push
+  458  cat Documents/access.txt
+  459  git add .
+  460  git commit -m"Offer Page:showing the products"
+  461  git push
+  462  cat Documents/assets.txt
+  463  cat Documents/access.txt
+  464  npm start
+  465  git add .
+  466  git commit -m"send offer : select product from existing ads"
+  467  git push
+  468  cat Documents/access.txt
+  469  git add .
+  470  git commit -m"fixed: send offerpage styling"
+  471  git push
+  472  cat Documents/access.txt
+  473  git add .
+  474  git commit -m"Make Offer: Completed"
+  475  git push
+  476  cat Documents/access.txt
+  477  npm start
+  478  cd Documents/chelan/Bart/Mobile
+  479  code .
+  480  git checkout main
+  481  git pull origin main
+  482  cat Documents/access.txt
+  483  git pull origin main
+  484  git checkout MustafaDev
+  485  git fetch origin
+  486  cat Documents/access.txt
+  487  git fetch origin/main
+  488  git merge main
+  489  npm start
+  490  git add .
+  491  cd Documents/chelan/Bart/Mobile
+  492  git add .
+  493  git commit -m"offers some ixes"
+  494  git push
+  495  cat Documents/access.txt
+  496  git push
+  497  git add .
+  498  git commit -m"fixed styling of offers page also in product page"
+  499  git push
+  500  git add .
+  501  git commit -m"Success modal"
+  502  git push
+  503  git add .
+  504  git commit -m"integrating the modal"
+  505  git push
+  506  git add .
+  507  git commit -m"fixed: roshan's bug on main page"
+  508  git push
+  509  git checkout main
+  510  git pull origin main
+  511  npm start
+  512  git checkout MustafaDev
+  513  git fetch orgin
+  514  git fetch origin
+  515  git fetch origin/main
+  516  git merge main
+  517  git add .
+  518  git commit -m"roshan: stylings"
+  519  git push
+  520  npm start
+  521  neofetch
+  522  npm start
+  523  git checkout main
+  524  git add 
+  525  git add .
+  526  git commit -m"working on the modal"
+  527  git push
+  528  git checkout main
+  529  git pull
+  530  git checkout main
+  531  git checkout MustafaDev
+  532  git add .
+  533  git commit -m"fixed sending offers"
+  534  git push
+  535  git checkout main
+  536  git checkout MustafaDev
+  537  git fetch origin
+  538  git merge main
+  539  git status
+  540  git checkout MustafaDev\ngit fetch origin\ngit diff main MustafaDev\n
+  541  cd Documents/chelan/Bart/Mobile
+  542  git checkout MustafaDev\ngit merge main\n
+  543  git fetch origin\n
+  544  git checkout main\ngit pull origin main\n
+  545  git checkout MustafaDev\ngit merge main\n
+  546  git push origin MustafaDev\n
+  547  git add .
+  548  git commit -m"."
+  549  npm start
+  550  cd Documents/chelan/Bart
+  551  code .
+  552  neofetch
+  553  nano ~/.zshrc
+  554  EXIT
+  555  exit
+  556  nano ~/.zshrc
+  557  fvfvf
+  558  ddsds
+  559  nano ~/.zshrc
+  560  nano ~/.config/polybar.conf
+  561  cd Documents/chelan/Bart/Mobile
+  562  code .
+  563  nano ~/.zshrc
+  564  cd Documents/chelan/Bart/Mobile
+  565  code .
+  566  cd Documents/chelan/Bart/Mobile
+  567  npm start
+  568  cat Documents/access.txt
+  569  git checkout main
+  570  git add .
+  571  git commit -m"fixing modal"
+  572  git push
+  573  git checkout main
+  574  git pull
+  575  git checkout MustafaDev
+  576  git merge main
+  577  git add .
+  578  git commit -m""
+  579  git commit -m" "
+  580  git pull
+  581  git add .
+  582  git commit -m"product add modal showing the modal"
+  583  git push
+  584  cd Desktop
+  585  touch memo.txt
+  586  nano memo.txt
+  587  npm start
+  588  git checkout main
+  589  git add .
+  590  git commit -m"  "
+  591  git commit -m". "
+  592  git push
+  593  git checkout main
+  594  git fetch origin main
+  595  git fetch origin
+  596  git checkout MustafaDev
+  597  git merge main
+  598  git fetch origin
+  599  git pull origin main
+  600  git merge main
+  601  git checkout main
+  602  git pull
+  603  git checkout MustafaDev
+  604  git merge main
+  605  git push'\n
+  606  git push\n
+  607  code .
+  608  cd Documents/chelan/Bart/Mobile
+  609  code .
+  610  cd Documents/chelan/Bart/Mobile
+  611  code .
+  612  npm start
+  613  cd Documents/chelan/Bart/Mobile
+  614  cat Documents/access.txt
+  615  git checkout main
+  616  git fetch origin
+  617  git pull
+  618  git checkout MustafaDev
+  619  git merge main
+  620  git push
+  621  npm start
+  622  git add .
+  623  git commit -m"fixed modal"
+  624  git push
+  625  git add .
+  626  git commit -m"fixed log "
+  627  git push
+  628  git checkout main
+  629  git fetch origin
+  630  git pull
+  631  git checkout main
+  632  git merge main
+  633  git checkout MustafaDev
+  634  git merge main
+  635  git push
+  636  cd Documents/chelan/Bart/Mobile
+  637  code .
+  638  git checkout ManihaDev
+  639  git checkout MustafaDv
+  640  git checkout MustafaDev
+  641  npm start
+  642  cd Documents/chelan/Bart/mobile
+  643  cd Documents/chelan/Bart/Mobile
+  644  git checkout main
+  645  npm i
+  646  npm i expo-notifications
+  647  git checkout MustafaDev
+  648  git fetch origin main
+  649  cat Documents/access.txt
+  650  git checkout main
+  651  git pull
+  652  git checkout MustafaDv
+  653  git checkout MustafaDev
+  654  git merge main
+  655  neofetch
+  656  nano ./config/neofetch/config.conf
+  657  cd ./config/neofetch/config.conf
+  658  cd ./.config/neofetch/
+  659  spotify
+  660  ^[[200~sudo apt install fonts-nerdfonts
+  661  ~sudo apt install fonts-nerdfonts\n
+  662  sudo apt install fonts-nerdfonts\n
+  663  sudo apt update\nsudo apt install fonts-nerd-fonts-complete
+  664  nano ~/.config/polybar/config\n
+  665  nano ~/.config/polybar/conf\n
+  666  nano ~/.config/polybar/config.ini\n
+  667  pkill polybar\npolybar example &\n
+  668  polybar example &
+  669  i3_bar example &
+  670  polybar example i3_bar
+  671  fc-list | grep "Nerd Font"\nfc-list | grep "Font Awesome"\n
+  672  polybar -c ~/.config/polybar/config.ini --list-bars\n
+  673  polybar -c ~/.config/polybar/config.ini i3_bar &\n
+  674  nano ~/.config/alacritty/alacritty.yml
+  675  fc-cache -fv\n
+  676  sudo chmod -x /sbin/shutdown\n
+  677  sudo shutdown now\n
+  678  sudo chmod +x /sbin/shutdown\n
+  679  sudo shutdown now\n
+  680  firefox
+  681  i3-msg exit\n
+  682  sudo apt-get purge i3 i3-wm i3lock i3bar i3status\n
+  683  sudo apt-get purge alacritty\n
+  684  sudo apt-get purge polybar\n
+  685  rm -rf ~/.config/i3\nrm -rf ~/.i3\n
+  686  rm -rf ~/.config/alacritty\n
+  687  rm -rf ~/.config/polybar\n
+  688  sudo apt-get purge alacritty\n
+  689  sudo apt install alacritty
+  690  neofetch
+  691  sudo apt update\nsudo apt install i3\n
+  692  sudo apt install i3-gaps\n
+  693  sudo apt install i3status\n
+  694  sudo apt install i3-gaps\n
+  695  sudo apt install i3blocks\n
+  696  sudo apt install xterm\n
+  697  sudo apt install feh\n
+  698  sudo apt install dmenu\n
+  699  sudo apt install polybar\n
+  700  sudo apt install xbacklight\n
+  701  sudo apt install rofi\n
+  702  sudo apt install polybar\n
+  703  cd ~/.config/i3/
+  704  cd .config/i3/
+  705  cd /.config/i3/
+  706  nano ~/.config/i3/config
+  707  sudo apt install polybar\n
+  708  sudo add-apt-repository ppa:kgilmer/speed-ricer\nsudo apt update\nsudo apt install i3-gaps\n
+  709  ~/.config/i3/config\n
+  710  mkdir -p ~/.config/i3\n
+  711  i3 -C > ~/.config/i3/config\n
+  712  nano ~/.config/i3/config\n
+  713  i3-migrate-config-to-v4 ~/.config/i3/config\n
+  714  nano ~/.config/i3/config\n
+  715  i3-msg reload\n
+  716  i3-migrate-config-to-v4 ~/.config/i3/config
+  717  i3-msg reload\n
+  718  nano ~/.config/i3/config\n
+  719  cp /etc/i3/config ~/.congif/i3/config
+  720  ls etc/i3
+  721  ls /etc/i3
+  722  cd ~/.config
+  723  ls
+  724  cd i3
+  725  ls
+  726  nano config
+  727  cp /etc/i3/config ~/.congif/i3/config
+  728  cd ..
+  729  cd /etc/i3/config
+  730  cd /etc/i3
+  731  nano config
+  732  cp /etc/i3/config ~/.congif/i3/config2
+  733  cp /etc/i3/config ~/.congif/i3/
+  734  cp /etc/i3/config  config2
+  735  cd ..
+  736  cd..
+  737  nano ~/.config/i3/config
+  738  pkill i3
+  739  mkdir -p ~/.config/i3
+  740  cp /etc/i3/config ~/.config/i3/config
+  741  sudo apt-get install --reinstall i3 i3status xorg
+  742  pkill i3
+  743  firefox
+  744  nano ~/.config/i3/config
+  745  sudo apt install polybar\n
+  746  sudo apt install fonts-font-awesome\n
+  747  i3 --version\n
+  748  wlp2s0
+  749  mkdir -p ~/.config/polybar\n
+  750  nano ~/.config/polybar/config\n
+  751  exec --no-startup-id polybar white\n
+  752  polybar white\n
+  753  polybar -l info white\n
+  754  polybar white &\n
+  755  sudo apt install fonts-font-awesome\nsudo apt install fonts-nerd-fonts-symbols\n
+  756  wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/nerd-fonts-2.1.0.tar.xz\n
+  757  git clone https://github.com/raz0229/.dotfiles.git
+  758  nano ~/.config/i3/config\n
+  759  cp /etc/i3/config ~/.config/i3/config
+  760  nano ~/.config/i3/config\n
+  761  cp /etc/i3/config ~/.config/i3/config
+  762  nano ~/.config/i3/config\n
+  763  exec --no-startup-id polybar white\n
+  764  exec --no-startup-id polybar white\\n
+  765  exec --no-startup-id polybar white\n
+  766  polybar white &\n
+  767  nano ~/.config/i3/config\n
+  768  sudo apt install fonts-font-awesome\n
+  769  nano ~/.config/polybar/config\n
+  770  exec --no-startup-id polybar\n
+  771  exec --no-startup-id polybar white\n
+  772  exec polybar white\n
+  773  nano ~/.config/i3/config\n
+  774  i3-msg reload\n
+  775  nano ~/.config/i3/config\n
+  776  polybar -v\n
+  777  polybar white\n
+  778  nano ~/.config/i3/config\n
+  779  nano ~/.config/neofetch/config.conf\n
+  780  neofetch
+  781  nano ~/.config/neofetch/config.conf\n
+  782  neofetch
+  783  background = #282a36\nborder-color = #44475a\n
+  784  nano ~/.config/polybar/config\n
+  785  pkill i3
+  786  nano ~/.config/i3/config\n
+  787  sudo apt install rofi\n
+  788  nano ~/.config/i3/config\n
+  789  nano ~/.config/rofi/config\n
+  790  mkdir -p ~/.config/rofi\ntouch ~/.config/rofi/config\n
+  791  nano ~/.config/rofi/config\n
+  792  nano ~/.config/i3/config\n
+  793  i3-msg reload\n
+  794  nano ~/rofi_center.sh\n
+  795  chmod +x ~/rofi_center.sh\n
+  796  nano ~/.config/i3/config\n
+  797  i3-msg reload\n
+  798  pkill i3
+  799  git clone https://github.com/husseinhareb/dotfiles--Awesome-.git
+  800  pkill i3
+  801  cp /etc/i3/config ~/.config/i3/config
+  802  mkdir -p ~/.config/alacritty\ntouch ~/.config/alacritty/alacritty.yml\n
+  803  nano ~/.config/alacritty/alacritty.yml\n
+  804  alacritty migrate
+  805  [200~sudo apt install picom
+  806  ~
+  807  sudo apt install picom\n
+  808  mkdir -p ~/.config/picom\nnano ~/.config/picom/picom.conf\n
+  809  rm -p ~/.config/picom\n
+  810  rm -f ~/.config/picom\n
+  811  rm -r -f ~/.config/picom\n
+  812  \nnano ~/.config/picom/picom.conf\n
+  813  nano ~/.config/alacritty/alacritty.yml\n
+  814  firefox
+  815  picom &\n
+  816  experimental-backends = true\nbackend = "glx";\n\nblur:\n  method: gaussian\n  strength: 10  # Adjust blur intensity\n
+  817  i3msg exit
+  818  exit
+  819  pkill i3
+  820  sudo apt-get purge i3 i3-wm i3lock i3bar i3status\n
+  821  sudo apt-get purge alacritty\n
+  822  nano ~/.config/i3/config\n
+  823  firefox
+  824  sudo apt-get install polybafr
+  825  sudo apt-get install polybar
+  826  nano ~/.config/polybar/config\n
+  827  nano ~/.config/i3/config\n
+  828  nano ~/.config/polybar/config\n
+  829  ls  ~/.config/polybar\n
+  830  nano ~/.config/polybar/i3_bar.sh\n
+  831  ~/.config/polybar/i3_bar.sh\n
+  832  sudo ~/.config/polybar/i3_bar.sh\n
+  833  chmod +x ~/.config/polybar/i3_bar.sh\n
+  834  ~/.config/polybar/i3_bar.sh\n
+  835  nano ~/.config/polybar/config\n
+  836  cd ~/Downloads\n\n
+  837  unzip NerdFontsSymbolsOnly.zip -d NerdFontsSymbols\n
+  838  mkdir -p ~/.local/share/fonts\n
+  839  cp NerdFontsSymbols/*.ttf ~/.local/share/fonts/\n
+  840  fc-cache -fv\n
+  841  fc-list | grep -i "Nerd"\n
+  842  nano ~/.config/polybar/config\n
+  843  ~/.config/polybar/i3_bar.sh\n
+  844  nano ~/.config/polybar/config\n
+  845  sudo apt install fonts-font-awesome\n
+  846  nano ~/.config/polybar/config\n
+  847  fc-list | grep -i "font awesome\|nerd"\n
+  848  cat ~/.config/polybar/config\n
+  849  nano ~/.config/polybar/config\n
+  850  cat ~/.config/polybar/config\n
+  851  polybar-msg cmd restart\n
+  852  echo ""\n
+  853  sudo apt update\nsudo apt install feh\n
+  854  cd Downloads
+  855  ls
+  856  nano ~/.config/i3/config\n
+  857  feh --bg-scale ~/Downloads/wp4409290-playboy-carti-desktop-wallpapers.png
+  858  ls ~/Downloads/wp4409290-playboy-carti-desktop-wallpapers.png\n
+  859  echo $HOME\n
+  860  nano ~/.config/i3/config\n
+  861  pkill i3
+  862  ls ~/.config/polybar\n
+  863  ls Pictures
+  864  nano ~/.config/i3/config\n
+  865  sudo apt install alacritty\n
+  866  nano ~/.config/i3/config\n
+  867  To set up Alacritty with a blurry, cool-looking terminal effect and integrate it with Picom for transparency and blur effects, follow these steps:\n\n### 1. **Install Alacritty**\n\nFirst, install Alacritty if you haven't done so already. On Linux Mint, you can install it using:\n\n```bash\nsudo apt install alacritty\n```\n\n### 2. **Install Picom**\n\nPicom is a compositor that allows you to add transparency, blur, and other visual effects to windows.\n\n```bash\nsudo apt install picom\n```\n\n### 3. **Configure Alacritty**\n\nAlacritty's configuration file is typically located at `~/.config/alacritty/alacritty.yml`. Open it and edit it to enable transparency and tweak the appearance.\n\nFor example, to add a transparent background with some opacity:\n\n```yaml\nbackground_opacity: 0.8  # Adjust this to your liking (1.0 is fully opaque, 0.0 is fully transparent)\n```\n\nYou can also configure fonts, colors, and other UI elements as needed.\n\n### 4. **Set Up Picom for Transparency and Blur**\n\nYou need to configure Picom to enable blur and transparency. First, create or edit your Picom configuration file (`~/.config/picom.conf` or `~/.config/picom/picom.conf`) with the following:\n\n```bash\n# Enable transparency and blur\nopacity-rule = [\n  "80:class_g = 'Alacritty'"  # Adjust opacity for Alacritty (80% opacity in this case)\n];\n\nblur-method = "kernel";  # Set blur method\nblur-radius = 10;       # Adjust blur radius\n```\n\nYou can adjust the opacity value and other parameters like `blur-radius` and `blur-method` to suit your aesthetic.\n\n### 5. **Start Picom Automatically**\n\nAdd Picom to your i3 config file (`~/.config/i3/config`) to start it automatically when i3 starts:\n\n```bash\nexec --no-startup-id picom --config ~/.config/picom.conf --experimental-backends\n```\n\n### 6. **Start Alacritty with Oh My Zsh**\n\nMake sure that your Alacritty terminal is launching with Oh My Zsh by adding `exec zsh` at the end of your `.zshrc` file:\n\n```bash\n# Ensure Oh My Zsh is sourced\nsource $ZSH/oh-my-zsh.sh\n```\n\nNow, whenever you open Alacritty, it should use Oh My Zsh and display with the transparency and blur effects set by Picom.\n\n### 7. **Start Alacritty Automatically (Optional)**\n\nIf you'd like Alacritty to launch automatically when you start i3, add the following line to your `~/.config/i3/config`:\n\n```bash\nexec --no-startup-id alacritty\n```\n\nThat should give you a cool, blurry terminal with Alacritty and Picom in your i3 setup. Let me know if you need further customization!\n\nclear\nexit
+  868  picom --config ~/.config/picom.conf
+  869  nano  ~/.config/picom.conf
+  870  picom --config ~/.config/picom.conf
+  871  nano  ~/.config/picom.conf
+  872  picom --config ~/.config/picom.conf
+  873  nano ~/.config/i3/config\n
+  874  sudo update-alternatives --config x-terminal-emulator\n
+  875  zsh --version\n
+  876  nano ~/.config/alacritty/config\n
+  877  sudo update-alternatives --config x-terminal-emulator\n
+  878  rm -rf ~/.config/alacritty\n
+  879  sudo update-alternatives --config x-terminal-emulator\n
+  880  ~/.config/alacritty/alacritty.yml\n
+  881  mkdir -p ~/.config/alacritty\nnano ~/.config/alacritty/alacritty.yml\n
+  882  alacritty migrate
+  883  nano ~/.config/alacritty/alacritty.yml\n
+  884  alacritty migrate
+  885  nano ~/.config/alacritty/alacritty.yml\n
+  886  alacritty migrate
+  887  nano ~/.config/alacritty/alacritty.yml\n
+  888  alacritty migrate
+  889  sudo update-alternatives --config x-terminal-emulator\n
+  890  pkill i3
+  891  nano ~/.config/i3/config\n
+  892  nano ~/.config/picom/config\n
+  893  picom --config ~/.config/picom.conf
+  894  nano  ~/.config/picom.conf
+  895  sudo update-alternatives --config x-terminal-emulator\n
+  896  pkill i3
+  897  sudo update-alternatives --config x-terminal-emulator\n
+  898  nano ~/.config/alacritty/alacritty.yml\n
+  899  sudo apt install rofi\n
+  900  nano ~/.config/i3/config\n
+  901  nano ~/.config/alacritty/alacritty.yml\n
+  902  alacritty migrate
+  903  nano ~/.config/alacritty/alacritty.yml\n
+  904  alacritty migrate
+  905  nano ~/.config/alacritty/alacritty.yml\n
+  906  alacritty migrate
+  907  x
+  908  nano ~/.config/alacritty/alacritty.yml\n
+  909  alacritty migrate
+  910  ls /tpm
+  911  ls /tmp
+  912  rm -rf ~/tmp/Alacritty-*\n
+  913  cd /tmp
+  914  rm -rf Alacritty-*\n
+  915  alacritty migrate
+  916  rm -rf Alacritty-*\n
+  917  ls
+  918  sudo update-alternatives --config x-terminal-emulator\n
+  919  mv alacritty.yml alacritty.yml.bak
+  920  ls  ~/.config/alacritty/\n
+  921  cd  ~/.config/alacritty/\n
+  922  mv alacritty.yml alacritty.yml.bak
+  923  mv alacritty.toml alacritty.yml.bak
+  924  mv alacritty.yml.bak alacritty.toml
+  925  nano ~/.config/i3/config\n
+  926  ~/.local/share/applications/alacritty.desktop\n
+  927  ~/.local/share/applications/alacritty.desktop\nalacritty migrate
+  928  alacritty migrate
+  929  nano ~/.config/alacritty/alacritty.yml\n
+  930  ls ~/.config/alacritty/\n
+  931  nano ~/.config/alacritty/alacritty.toml\n
+  932  nano  ~/.config/picom.conf
+  933  nano ~/.config/i3/config\n
+  934  pkill i3
+  935  nano ~/.config/i3/config\n
+  936  pkill i3
+  937  nano ~/.config/i3/config\n
+  938  pkill i3
+  939  #!/bin/bash\ndmenu_run \\n-nb "#2E3B29" -nf "#A8B8A1" -sb "#A6D685" -sf "#2E3B29"\n
+  940  chmod +x ~/.scripts/dmenu_turtle.sh
+  941  mkdir -p ~/.scripts\n
+  942  nano ~/.config/i3/config\n
+  943  sudo apt install rofi papirus-icon-theme
+  944  mkdir -p ~/.config/rofi/config.rasi\n
+  945  nano ~/.config/rofi/config.rasi
+  946  @theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+  947  ls /usr/share/rofi/themes/\n
+  948  nano ~/.config/rofi/config.rasi
+  949  sudo apt install fonts-materialdesignicons-webfont\n
+  950  fc-cache -fv\n
+  951  fc-list | grep "FontAwesome"   # Replace with the font name\n
+  952  nano ~/.config/polybar/config.ini\n
+  953  cat ~/.config/polybar/config\n
+  954  nano ~/.config/polybar/config\n
+  955  polybar --reload i3_bar
+  956  cat ~/.config/polybar/config\n
+  957  fc-list | grep "Font Awesome"\nfc-list | grep "Material Icons"\nfc-list | grep "Nerd Font"\n
+  958  sudo apt install fonts-font-awesome\n
+  959  sudo apt install fonts-materialdesignicons-webfont\n
+  960  sudo apt install fonts-noto-color-emoji\n
+  961  pkill i3
+  962  cd Documents/chelan
+  963  git pull origin main
+  964  cat Documents/access.txt
+  965  git reset HEAD -hard
+  966  git reset HEAD --hard
+  967  git checkout main
+  968  git pull
+  969  git checkout Mustafa
+  970  git checkout MustafaDEv
+  971  git checkout MustafaDev
+  972  git pull
+  973  code .
+  974  code 
+  975  PKILL I3
+  976  pkill i3
+  977  cd Documents/chelan
+  978  code .
+  979  cat Documents/access.txt 
+  980  cd  Documents/chelan/Bart/Website
+  981  npm run dev
+  982  npm i
+  983  npm run dev
+  984  cd Bart/website
+  985  cd Bart/Website
+  986  npm run dev
+  987  git add /
+  988  git add .
+  989  git commit -m"added privacy policy"
+  990  git push
+  991  cd Mobile
+  992  cd Bart/Mobile
+  993  npm start
+  994  pkikll i3
+  995  pkill i3
+  996  ls
+  997  cd DEsktop
+  998  cd Desktop
+  999  pkill i3
+ 1000  pkill cinnamon
+ 1001  pkill i3
+ 1002  sudo -H gedit /etc/acpi/events/powerbtn
+ 1003  upower -i /org/freedesktop/UPower/devices/battery_BAT0\n
+ 1004  cd Downloads
+ 1005  ls
+ 1006  lsblk\n
+ 1007  cp ~/Downloads/E7250A24.exe /media/$USER/F69C-CAEB/\n
+ 1008  ls /media/$USER/F69C-CAEB/\n
+ 1009  sudo systemctl status acpid\n
+ 1010  sudo apt update && sudo apt install acpid\n
+ 1011  sudo systemctl start acpid\nsudo systemctl enable acpid\n
+ 1012  sudo systemctl status systemd-logind\n
+ 1013  sudo systemctl start systemd-logind\nsudo systemctl enable systemd-logind\n
+ 1014  sudo nano /etc/systemd/logind.conf\n
+ 1015  sudo systemctl restart systemd-logind\n
+ 1016  sudo apt install evtest\n
+ 1017  sudo evtest\n
+ 1018  sudo nano /etc/systemd/logind.conf\n
+ 1019  nano ~/.config/i3/config\n
+ 1020  sudo apt update\nsudo apt upgrade\n
+ 1021  sudo udevadm control --reload\n
+ 1022  nano  ~/.config/picom.conf
+ 1023  dmesg | grep -i power\n
+ 1024  cat /var/log/syslog | grep -i acpi\n
+ 1025  sudo apt update\nsudo apt install acpi\n
+ 1026  acpi_listen\n
+ 1027  button/power PBTN 00000080 00000000\n
+ 1028  acpi -V\n
+ 1029  sensors\n
+ 1030  acpi -V\n
+ 1031  sensors\n
+ 1032  sudo journalctl -b | grep ACPI\n
+ 1033  pkill i3
+ 1034  cd Downloads
+ 1035  ls -i
+ 1036  cd ..
+ 1037  cd Downloads
+ 1038  cd ..
+ 1039  cd Desktop
+ 1040  mkdir Lecture6
+ 1041  cd Lecture6
+ 1042  touch ABC.txt
+ 1043  touch abc.txt
+ 1044  nano ABC.txt
+ 1045  nano abc.txt
+ 1046  cat abc.txt
+ 1047  cat ABC.txt
+ 1048  ln ABC.txt XYZ.txt
+ 1049  ln -s abc.txt xyz.txt
+ 1050  ls -i
+ 1051  cat xyz.txt
+ 1052  cat XYZ.txt
+ 1053  cat abc.txt
+ 1054  cat ABC.txt
+ 1055  rm ABC.txt
+ 1056  rm abc.txt
+ 1057  ls
+ 1058  cat XYZ.txt
+ 1059  cat xyz.txt
+ 1060  ln -i
+ 1061  ls -i
+ 1062  touch abc.txt
+ 1063  nano abc.txt
+ 1064  touch IO.c
+ 1065  code IO.c
+ 1066  ./IO
+ 1067  ls
+ 1068  ./IO
+ 1069  code IO.c
+ 1070  ./IO
+ 1071  ls
+ 1072  code IO.c
+ 1073  gcc -o IO IO.c \n
+ 1074  ./IO
+ 1075  ls | wc
+ 1076  ls | wc > temp.txt
+ 1077  cat temp.txt
+ 1078  nano abc.txt
+ 1079  cat abc.txt
+ 1080  sort abc.txt
+ 1081  cat abc.txt
+ 1082  sort abc.txt > ABC.txt
+ 1083  cat ABC.txt
+ 1084  ls abc.txt
+ 1085  cat abc.txt|sort
+ 1086  cat abc.txt|sort|head -5
+ 1087  cat abc.txt|sort|head -5|tail -2
+ 1088  cat abc.txt|sort|head -5|tail -2 > test.txt
+ 1089  cat test.txt
+ 1090  cat abc.txt|grep aj
+ 1091  cat abc.txt|grep aj > test2.txt
+ 1092  cat test2.txt
+ 1093  nano abc.txt
+ 1094  cat abc.txt
+ 1095  touch new.txt
+ 1096  nano new.txt
+ 1097  cat new.txt|uniq
+ 1098  uniq new.txt
+ 1099  nano abc.txt
+ 1100  cat new.txt|uniq
+ 1101  nano abc.txt|uniq
+ 1102  cd Desktop/Lecture6
+ 1103  cat abc.txt|uniq
+ 1104  uniq abc.txt
+ 1105  cd /root/
+ 1106  rm new.txt
+ 1107  cd /root/ > new.txt
+ 1108  cd /root/2 > new.txt
+ 1109  cd /root/ 2 > new.txt
+ 1110  cd /root/ 2> new.txt
+ 1111  cat new.txt
+ 1112  cat abc.txt>new1.txt
+ 1113  cat abc.txt 2>new1.txt
+ 1114  cat abc.txt &>new1.txt
+ 1115  cat abc.txt|sort >> new1.txt
+ 1116  cat new1.txt
+ 1117  system-info
+ 1118  pkil cinnamon
+ 1119  pkill cinnamon
+ 1120  nano ~/.config/rofi/config.rasi
+ 1121  cd Documents/chelan
+ 1122  cd Mobile
+ 1123  cd /Bart/Mobile
+ 1124  ls
+ 1125  cd Bart|ls
+ 1126  ls
+ 1127  cd Bart
+ 1128  ls
+ 1129  cd Mobile
+ 1130  code .
+ 1131  cd Documents/chelan/Bart/Mobile
+ 1132  cat Documents/access.txt
+ 1133  git pull
+ 1134  git checkout main
+ 1135  git pull
+ 1136  git checkout MustafaDEv
+ 1137  git checkout MustafaDev
+ 1138  git merge main
+ 1139  npm start
+ 1140  man grep
+ 1141  history
+ 1142  history|grep "piocm"
+ 1143  history|grep "picom"
+ 1144  nano  ~/.config/picom.conf
+ 1145  picom --experimental-backends --config ~/.config/picom/picom.conf\n
+ 1146  picom --config ~/.config/picom/picom.conf\n
+ 1147  nano  ~/.config/picom.conf
+ 1148  picom --config ~/.config/picom/picom.conf --log-level debug\n
+ 1149  picom --config /etc/xdg/picom.conf\n
+ 1150  nano ~/.config/picom/picom.conf\n
+ 1151  nano  ~/.config/picom.conf
+ 1152  cat  ~/.config/picom.conf
+ 1153  mkdir -p  ~/.config/picom/picom.conf\n
+ 1154  nano ~/.config/picom/picom.conf\n
+ 1155  rmdir  ~/.config/picom/picom.conf\n
+ 1156  touch  ~/.config/picom/picom.conf\n
+ 1157  nano ~/.config/picom/picom.conf\n
+ 1158  sudo apt remove picom\nsudo apt install picom\n
+ 1159  pkill i3
+ 1160  cat  ~/.config/picom.conf
+ 1161  nano  ~/.config/picom.conf
+ 1162  cat  ~/.config/picom.conf
+ 1163  ➜  ~ nano  ~/.config/picom.conf\n➜  ~ cat  ~/.config/picom.conf\n# Backend\nbackend = "glx";\n\n# Shadow\nshadow = true;\nshadow-radius = 10;\nshadow-offset-x = -10;\nshadow-offset-y = -10;\nshadow-red = 1.0;\nshadow-green = 1.0;\nshadow-blue = 1.0;\n\n# Transparency\nframe-opacity = 0.6;\ninactive-opacity = 0.55;\nactive-opacity = 0.75;\n\n# Blur (Optional)\nblur-background = true;\nblur-method = "dual_kawase";\nblur-strength = 7.5;\n\n# Black-and-white specific look\nshadow-exclude = [\n    "_GTK_FRAME_EXTENTS@:c" # Prevent over-darkening GTK apps\n];\n\n➜  ~
+ 1164  picom --config /home/mus/.config/compton.conf
+ 1165  ls
+ 1166  picom -b
+ 1167  history|grep "i3"
+ 1168  nano ~/.config/i3/config\n
+ 1169  nano ~/.config/i3/config
+ 1170  nano  ~/.config/picom.conf
+ 1171  picom -b
+ 1172  pkill i3
+ 1173  cd Documents/chelan/Bart/Mobile
+ 1174  code .
+ 1175  npm start
+ 1176  cat Documents/access.txt
+ 1177  cd Documents/chelan/Bart/Mobile
+ 1178  npm install -g expo-cli
+ 1179  npx expo-cli\n
+ 1180  sudo npm install -g expo-cli\n
+ 1181  sudo npx expo-cli\n
+ 1182  cd Documents/chelan/Bart/Mobile
+ 1183  sudo npx expo-cli\n
+ 1184  eas build:configure\n
+ 1185  npx eas-cli --version\n
+ 1186  eas build:configure\n
+ 1187  npx eas-cli --version\n
+ 1188  eas build:configure\n
+ 1189  npx eas-cli build:configure\n
+ 1190  eas build
+ 1191  npx eas build
+ 1192  cat /home/mus/.npm/_logs/2024-12-11T16_11_45_491Z-debug-0.log
+ 1193  npx eas-cli --version\n
+ 1194  npx eas-cli build\n
+ 1195  npx eas-cli build:configure\n
+ 1196  npx eas build
+ 1197  cat /home/mus/.npm/_logs/2024-12-11T16_13_41_746Z-debug-0.log
+ 1198  npm run build\n
+ 1199  cat /home/mus/.npm/_logs/2024-12-11T16_22_18_284Z-debug-0.log
+ 1200  cat /home/mus/.npm/_logs/2024-12-11T16_22_18_284Z-debug-0.l
+ 1201  cat ~/.npm/_logs/2024-12-11T16_22_18_284Z-debug-0.l
+ 1202  eas --version
+ 1203  npx eas --version
+ 1204  npm install -g eas-cli\n
+ 1205  sudo npm install -g eas-cli\n
+ 1206  eas login\n
+ 1207  eas init\n
+ 1208  eas build --platform android\n
+ 1209  expo start --clear\n
+ 1210  npm start --clear\n
+ 1211  eas build\n
+ 1212  git add .
+ 1213  git commit -m"fixed files naming convntion for apk"
+ 1214  git psuh
+ 1215  git push
+ 1216  cd assets
+ 1217  file assets_profile_dp.png 
+ 1218  file profile_dp.png 
+ 1219  convert profile_dp.png profile_dp_converted.png\n
+ 1220  dwebp profile_dp.png -o profile_dp_converted.png\n
+ 1221  sudo apt update\nsudo apt install imagemagick\n
+ 1222  convert profile_dp.png profile_dp_converted.png\n
+ 1223  rm profile_dp.png
+ 1224  mv profile_dp_converted.png profile_dp.png\n
+ 1225  file assets_profile_dp.png 
+ 1226  file profile_dp.png 
+ 1227  eas build\n
+ 1228  java -version\n
+ 1229  cd ../..
+ 1230  cd ..
+ 1231  cd..
+ 1232  cd ..
+ 1233  cd Downloads
+ 1234  ls
+ 1235  tar -xvzf jre-8u431-linux-x64.tar.gz\n
+ 1236  sudo mv jre1.8.0_431 /opt/\n
+ 1237  nano ~/.zshrc  # for zsh\n
+ 1238  source ~/.zshrc
+ 1239  java -version\n
+ 1240  java -jar bundletool-all-1.17.2.jar build-apks --bundle=application-c3414e3d-861d-4d2b-b040-aaaa2365016a.aab --output=output.apks --mode=universal\n
+ 1241  unzip output.apks -d output/\n
+ 1242  sudo apt update\nsudo apt install openjdk-11-jdk\n
+ 1243  sudo apt update\nsudo apt install openjdk-17-jdk\n
+ 1244  java -version\n
+ 1245  sudo update-alternatives --config java\n
+ 1246  java -version\n
+ 1247  echo $JAVA_HOME\n
+ 1248  nano ~/.zshrc  # for zsh\n
+ 1249  source ~/.zshrc
+ 1250  java -version\n
+ 1251  java -jar bundletool-all-1.17.2.jar build-apks --bundle=application-c3414e3d-861d-4d2b-b040-aaaa2365016a.aab --output=output.apks --mode=universal\n
+ 1252  unzip output.apks -d output/\n
+ 1253  keytool -genkeypair -v -keystore my-release-key.keystore -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias\n
+ 1254  cd Documents
+ 1255  touch keystorebart.txt
+ 1256  nano
+ 1257  cat keystorebart.txt
+ 1258  clear
+ 1259  keytool -genkeypair -v -keystore my-release-key.keystore -keyalg RSA -keysize 2048 -validity 10000 -alias my-key-alias\n\n
+ 1260  apksigner sign --ks my-release-key.keystore --ks-key-alias my-key-alias --ks-pass pass:barter123--key-pass pass:barter123!@# output/universal.apk\n
+ 1261  apksigner sign --ks my-release-key.keystore --ks-key-alias my-key-alias --ks-pass pass:'barter123!@#' --key-pass pass:'barter123!@#' output/universal.apk\n
+ 1262  ls
+ 1263  unzip platform-tools-latest-linux.zip -d ~/Downloads/android-sdk\n
+ 1264  nano ~/.zshrc  # for zsh\n
+ 1265  echo 'export PATH=$PATH:~/Downloads/android-sdk/platform-tools' >> ~/.zshrc\n
+ 1266  nano ~/.zshrc  # for zsh\n
+ 1267  source ~/.zshrc\n
+ 1268  apksigner --version\n
+ 1269  nano ~/.zshrc  # for zsh\n
+ 1270  ls
+ 1271  nano ~/.zshrc  # for zsh\n
+ 1272  apksigner --version\n
+ 1273  ~/Downloads/android-sdk/cmdline-tools/latest/bin/sdkmanager "build-tools;34.0.0"\n
+ 1274  apksigner sign --ks my-release-key.keystore --ks-key-alias my-key-alias --ks-pass pass:barter123\!\@\# --key-pass pass:barter123\!\@\# output/universal.apk\n
+ 1275  adb install output/universal.apk\n
+ 1276  adb devices\n
+ 1277  adb install -t output/universal.apk\n
+ 1278  sdkmanager "build-tools;30.0.3"\n
+ 1279  apksigner
+ 1280  buildtools
+ 1281  adb devices\n\n
+ 1282  adb install -t output/universal.apk\n
+ 1283  ls
+ 1284  ~/Downloads/android-sdk/tools/bin/sdkmanager "build-tools;30.0.3"\n
+ 1285  unzip sdk-tools-linux.zip -d ~/Downloads/android-sdk/cmdline-tools\n
+ 1286  unzip ~/Downloads/commandlinetools-linux-*.zip -d ~/Downloads/android-sdk/cmdline-tools\n
+ 1287  ls
+ 1288  gunzip ~/Downloads/android-studio-2024.2.1.12-linux.tar.gz  ~\n
+ 1289  cd ..
+ 1290  ls
+ 1291  gunzip ~/Downloads/android-studio-2024.2.1.12-linux.tar.gz  ~/Downloads\n
+ 1292  ls
+ 1293  cd Downloads
+ 1294  eas build -p\n
+ 1295  cd ../Documents/chelan/Bart/Mobile
+ 1296  eas build -p android --profile preview\n
+ 1297  cd ./../..
+ 1298  ../
+ 1299  ..
+ 1300  cd Downloads
+ 1301  ls
+ 1302  adb install application-13f5c005-6d3d-463c-92b4-cfe497c02cbe.apk
+ 1303  pkill i3
+ 1304  pkill
+ 1305  pkill i3
+ 1306  cd Documents/chelan/Bart/Mobile
+ 1307  code .
+ 1308  pwd
+ 1309  npm start
+ 1310  cat Documents/access.txt
+ 1311  cd /home/mus/Documents/chelan/Bart/Mobile]
+ 1312  cd /Documents/chelan/Bart/Mobile]
+ 1313  cd Documents/chelan/Bart/Mobile
+ 1314  git add .
+ 1315  git commit -m"apk eas stuff"
+ 1316  git push
+ 1317  git checkout main
+ 1318  git fetch origin
+ 1319  git pull
+ 1320  git checkout MustafaDEv
+ 1321  git checkout MustafaDev
+ 1322  git merge main
+ 1323  git pull origin main
+ 1324  npm install react-native-animatable\n
+ 1325  cd Documents/chelan/Bart/Mobile
+ 1326  code .
+ 1327  npm start
+ 1328  cd Documents/chelan/Bart/
+ 1329  git checkout main
+ 1330  git commit -m'new package'
+ 1331  git add .
+ 1332  git commit -m'new package'
+ 1333  git push
+ 1334  cat Documents/access.txt
+ 1335  git checkout main
+ 1336  git fetch origin main
+ 1337  git pull
+ 1338  git checkout MustafaDev
+ 1339  git merge main
+ 1340  git add .
+ 1341  git merge main
+ 1342  git commit -m" "
+ 1343  git commit -m". "
+ 1344  git merge main
+ 1345  git push
+ 1346  npm start
+ 1347  cd Mobile
+ 1348  npm install react-native-vector-icons\n
+ 1349  npm install react-native-vector-icons --legacy-peer-deps\n
+ 1350  ^[[200~npm ls react
+ 1351  ~npm ls react\n
+ 1352  npm ls react
+ 1353  npm install\n
+ 1354  ➜  Mobile git:(MustafaDev) ✗ npm ls react\nnpm ERR! code ELSPROBLEMS\nnpm ERR! invalid: react@18.3.1 /home/mus/Documents/chelan/Bart/Mobile/node_modules/react\ncc.chelan.rev1.bart@1.0.0 /home/mus/Documents/chelan/Bart/Mobile\n├─┬ @expo/react-native-action-sheet@4.1.0\n│ └── react@18.3.1 deduped\n├─┬ @react-navigation/bottom-tabs@7.2.0\n│ ├─┬ @react-navigation/elements@2.2.5\n│ │ └── react@18.3.1 deduped\n│ └── react@18.3.1 deduped\n├─┬ @react-navigation/native-stack@7.2.0\n│ └── react@18.3.1 deduped\n├─┬ @react-navigation/native@7.0.14\n│ ├─┬ @react-navigation/core@7.3.1\n│ │ ├── react@18.3.1 deduped\n│ │ └─┬ use-sync-external-store@1.4.0\n│ │   └── react@18.3.1 deduped invalid: "16.5.0" from node_modules/@ui-kitten/eva-icons/node_modules/react-native-eva-icons\n│ ├── react@18.3.1 deduped\n│ └─┬ use-latest-callback@0.2.3\n│   └── react@18.3.1 deduped\n├─┬ @react-navigation/stack@7.1.0\n│ └── react@18.3.1 deduped\n├─┬ @ui-kitten/eva-icons@5.3.1\n│ └─┬ react-native-eva-icons@1.3.1\n│   └── react@18.3.1 deduped invalid: "16.5.0" from node_modules/@ui-kitten/eva-icons/node_modules/react-native-eva-icons\n├─┬ expo-av@15.0.1\n│ └── react@18.3.1 deduped\n├─┬ expo-linear-gradient@14.0.1\n│ └── react@18.3.1 deduped\n├─┬ expo-linking@7.0.3\n│ └── react@18.3.1 deduped\n├─┬ expo@52.0.17\n│ ├─┬ expo-asset@11.0.1\n│ │ └── react@18.3.1 deduped invalid: "16.5.0" from node_modules/@ui-kitten/eva-icons/node_modules/react-native-eva-icons\n│ ├─┬ expo-font@13.0.1\n│ │ └── react@18.3.1 deduped invalid: "16.5.0" from node_modules/@ui-kitten/eva-icons/node_modules/react-native-eva-icons\n│ ├─┬ expo-keep-awake@14.0.1\n│ │ └── react@18.3.1 deduped invalid: "16.5.0" from node_modules/@ui-kitten/eva-icons/node_modules/react-native-eva-icons\n│ └── react@18.3.1 deduped\n├─┬ react-native-maps@1.18.0\n│ └── react@18.3.1 deduped\n├─┬ react-native-safe-area-context@4.12.0\n│ └── react@18.3.1 deduped\n├─┬ react-native-screens@4.1.0\n│ ├─┬ react-freeze@1.0.4\n│ │ └── react@18.3.1 deduped invalid: "16.5.0" from node_modules/@ui-kitten/eva-icons/node_modules/react-native-eva-icons\n│ └── react@18.3.1 deduped\n├─┬ react-native-svg@15.8.0\n│ └── react@18.3.1 deduped\n├─┬ react-native@0.76.3\n│ ├─┬ @react-native/virtualized-lists@0.76.3\n│ │ └── react@18.3.1 deduped invalid: "16.5.0" from node_modules/@ui-kitten/eva-icons/node_modules/react-native-eva-icons\n│ └── react@18.3.1 deduped\n└── react@18.3.1\n\n\nnpm ERR! A complete log of this run can be found in:\nnpm ERR!     /home/mus/.npm/_logs/2024-12-14T13_19_30_809Z-debug-0.log\n➜  Mobile git:(MustafaDev) ✗
+ 1355  npm install\n
+ 1356  git reset HEAD --hard
+ 1357  npm install\n
+ 1358  npm start
+ 1359  npm install\n
+ 1360  npm start
+ 1361  npm checkout main
+ 1362  git checkout main
+ 1363  git reset HEAD --hard
+ 1364  rmdir -r .node_modules
+ 1365  rmdir  .node_modules
+ 1366  npm i
+ 1367  npm start
+ 1368  npm install react-icons\n
+ 1369  npm install --save-dev @types/babel__core @types/babel__generator @types/babel__template @types/babel__traverse @types/estree @types/geojson @types/hammerjs @types/istanbul-lib-report @types/istanbul-reports @types/json-schema @types/node\n
+ 1370  npm install react-native-eva-icons\n
+ 1371  npm i @expo/vector-icons
+ 1372  npm uninstall react-icons
+ 1373  git add .
+ 1374  git commit -m"icons focused unfocuesd animation"
+ 1375  git push
+ 1376  git add 
+ 1377  git add .
+ 1378  git commit -m"bottom bar navigation styling"
+ 1379  git push
+ 1380  git add .
+ 1381  git commit -m"border fic"
+ 1382  git push
+ 1383  cd Documents/chelan/Bart/Mobile
+ 1384  code .
+ 1385  npm start
+ 1386  git checkout main
+ 1387  cd Documents/chelan/Bart/Mobile
+ 1388  git checkout main
+ 1389  git fetch origin main
+ 1390  cat Documents/access.txt
+ 1391  git pull origin main
+ 1392  git checkout main
+ 1393  git checkout MustafaDEv
+ 1394  git checkout MustafaDev
+ 1395  git merge main
+ 1396  git push
+ 1397  pkill
+ 1398  pkill i3
+ 1399  cd Documents/chelan/Bart/Mobile
+ 1400  code .
+ 1401  cd Documents/chelan/Bart/Mobile
+ 1402  cat Documents/access.txt
+ 1403  sudo apt-get install mysql-server
+ 1404  mysql-server
+ 1405  systemctl start mysql\n
+ 1406  systemctl enable mysql
+ 1407  systemctl restart mysql
+ 1408  mysql_secure_isntallation
+ 1409  sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386\n
+ 1410  cd Documents/chelan/Bart/Mobile
+ 1411  code .
+ 1412  cd Documents/chelan/Bart/Mobile
+ 1413  cat Documents/access.txt
+ 1414  git checkout main
+ 1415  git fetch origin main
+ 1416  git pull origin main
+ 1417  git checkout MustafaDev
+ 1418  git merge main
+ 1419  npm start
+ 1420  npm install --save-dev @types/react-native-animatable\n
+ 1421  git add ,
+ 1422  git add .
+ 1423  git commit -m"account workflow debug "
+ 1424  git push
+ 1425  import React from "react";\nimport { GestureResponderEvent, StyleSheet, TouchableOpacity, View } from "react-native";\nimport * as Animatable from "react-native-animatable";\nimport { MaterialIcons } from "@expo/vector-icons";\nimport BottomTabNavigation from "../Core/UI/Navigation/BottomTabNavigation";\nimport { AccountTabs } from "./AccountTabs";\nimport UIControl, { UIControlProps, UIControlState } from "../Core/UI/BaseControl/UIControl";\nimport BuyWorkflow from "../Buy/BuyWorkflow";\nimport MyAdsWorkflow from "../MyAds/MyAdsWorkflow";\nimport OfferWorkflow from "../Offers/OfferWorkflow";\nimport InboxWorkflow from "../Inbox/InboxWorkflow";\nimport { SampleTab } from "./SampleTab";\n\ninterface AccountWorkflowProps extends UIControlProps {}\ninterface AccountWorkflowState extends UIControlState {}\n\ninterface TabButtonProps extends UIControlProps {\n  item: {\n    name: string;\n    component: React.ComponentType<any>;\n    iconName: keyof typeof MaterialIcons.glyphMap;\n  };\n  onPress: (event?: GestureResponderEvent) => void;\n  isFocused: boolean;\n}\n\nconst animations = {\n  focused: {\n    from: { transform: [{ scale: 0.8 }], translateY: 0 },\n    "50%": { transform: [{ scale: 1.1 }], translateY: -15 },\n    to: { transform: [{ scale: 1.2 }], translateY: -10 },\n  },\n  unfocused: {\n    from: { transform: [{ scale: 1.2 }], translateY: -10 },\n    to: { transform: [{ scale: 1 }], translateY: 0 },\n  },\n  circleIn: {\n    from: { transform: [{ scale: 0 }] },\n    to: { transform: [{ scale: 1 }] },\n  },\n  circleOut: {\n    from: { transform: [{ scale: 1 }] },\n    to: { transform: [{ scale: 0 }] },\n  },\n};\n\nclass TabButton extends UIControl<TabButtonProps, UIControlState> {\n  private viewRef: React.RefObject<Animatable.View> = React.createRef();\n  private circleRef: React.RefObject<Animatable.View> = React.createRef();\n\n\n  constructor(props: TabButtonProps) {\n    super("TabButton", props);\n  }\n\n  componentDidUpdate(prevProps: TabButtonProps) {\n    if (prevProps.isFocused !== this.props.isFocused) {\n      if (this.props.isFocused) {\n        this.viewRef?.animate(animations.focused);\n        this.circleRef?.animate(animations.circleIn);\n      } else {\n        this.viewRef?.animate(animations.unfocused);\n        this.circleRef?.animate(animations.circleOut);\n      }\n    }\n  }\n\n  override render(): React.ReactNode {\n    const { item, onPress, isFocused } = this.props;\n\n    return (\n      <TouchableOpacity onPress={onPress} activeOpacity={1} style={styles.tabContainer}>\n        <Animatable.View ref={(ref) => (this.viewRef = ref)} style={styles.animContainer}>\n          <View style={[styles.iconContainer, isFocused ? styles.iconFocused : styles.iconUnfocused]}>\n            <Animatable.View ref={(ref) => (this.circleRef = ref)} style={styles.circle} />\n            <MaterialIcons\n              name={item.iconName}\n              size={28}\n              style={isFocused ? styles.iconColorFocused : styles.iconColorUnfocused}\n            />\n          </View>\n        </Animatable.View>\n      </TouchableOpacity>\n    );\n  }\n}\n\nclass AccountWorkflow extends UIControl<AccountWorkflowProps, AccountWorkflowState> {\n  constructor(props: AccountWorkflowProps) {\n    super("AccountWorkflow", props);\n    this.state = {};\n  }\n\n  override render(): React.ReactNode {\n    return (\n      <View style={styles.container}>\n        <BottomTabNavigation initialRouteName={AccountTabs.Home}>\n          {[\n            { name: AccountTabs.Home, component: BuyWorkflow, iconName: "home" as keyof typeof MaterialIcons.glyphMap },\n            { name: AccountTabs.Offers, component: OfferWorkflow, iconName: "send" as keyof typeof MaterialIcons.glyphMap },\n            { name: AccountTabs.MyAds, component: MyAdsWorkflow, iconName: "edit" as keyof typeof MaterialIcons.glyphMap },\n            { name: AccountTabs.Inbox, component: InboxWorkflow, iconName: "mail" as keyof typeof MaterialIcons.glyphMap },\n            { name: AccountTabs.Account, component: SampleTab, iconName: "person" as keyof typeof MaterialIcons.glyphMap },\n          ].map((item, index) => (\n            <BottomTabNavigation.Screen\n              key={index}\n              name={item.name}\n              component={item.component}\n              options={{\n                tabBarShowLabel: false,\n                tabBarButton: (props) => (\n                  <TabButton\n                    ref={React.createRef()} // Add a ref if needed\n                    {...props}\n                    item={item}\n                    isFocused={props.accessibilityState?.selected ?? false}\n                  />\n                )\n                \n              }}\n            />\n          ))}\n        </BottomTabNavigation>\n      </View>\n    );\n  }\n}\n\nexport default AccountWorkflow;\n\nconst styles = StyleSheet.create({\n  container: {\n    flex: 1,\n    ...StyleSheet.absoluteFillObject,\n    backgroundColor: "white",\n  },\n  tabContainer: {\n    flex: 1,\n    justifyContent: "center",\n    alignItems: "center",\n  },\n  animContainer: {\n    alignItems: "center",\n    justifyContent: "center",\n  },\n  iconContainer: {\n    width: 50,\n    height: 50,\n    borderRadius: 25,\n    justifyContent: "center",\n    alignItems: "center",\n  },\n  circle: {\n    ...StyleSheet.absoluteFillObject,\n    borderRadius: 25,\n    zIndex: -1,\n  },\n  iconUnfocused: {\n    backgroundColor: "#fff",\n  },\n  iconFocused: {\n    backgroundColor: "#6200ee",\n    borderWidth: 6,\n    borderColor: "#fff",\n  },\n  iconColorFocused: {\n    color: "#fff",\n  },\n  iconColorUnfocused: {\n    color: "#6200ee",\n  },\n});\n
+ 1426  cat Documents/access.txt
+ 1427  git add .
+ 1428  git commit -m"main page upper section"
+ 1429  git push
+ 1430  git add .
+ 1431  git commit -m"fixed scroll"
+ 1432  git push
+ 1433  git add .
+ 1434  git commit -m"strips"
+ 1435  git push
+ 1436  override render(): React.ReactNode {\n    return (\n        <Layout style={{ flex: 1, marginBottom: 0, backgroundColor: "#3a4153" }}>\n            <Loading\n                state={this.state.loadState}\n                style={{ alignItems: "center", backgroundColor: "#3a4153" }}\n                onRetry={this.onRefresh}\n            />\n\n            {(this.state.loadState === LoadState.Completed && this.state.categories.length === 0) && (\n                <FormText\n                    style={{\n                        alignSelf: "center",\n                        marginVertical: 15,\n                        backgroundColor: "#3a4153",\n                        color: "red",\n                    }}\n                >\n                    No categories match the specified criteria.\n                </FormText>\n            )}\n\n            {(this.state.loadState === LoadState.Completed && this.state.categories.length > 0) && (\n                <Layout style={{ flex: 1, backgroundColor: "#3a4153" }}>\n                    <ScrollView\n                        horizontal\n                        style={{ flex: 1 }}\n                        contentContainerStyle={{ backgroundColor: "#3a4153" }}\n                    >\n                        {this.state.categories.map(this.renderCategory)}\n                    </ScrollView>\n                </Layout>\n            )}\n        </Layout>\n    );\n}\n
+ 1437  git push
+ 1438  cat Documents/access.txt
+ 1439  history|grep access.txt > cat
+ 1440  cd Documents/chelan/Bart/Mobile
+ 1441  code .
+ 1442  nano /home/mus/.zshrc
+ 1443  npm start
+ 1444  cd Documents/chelan/Bart/Mobile
+ 1445  gnome-screenshot
+ 1446  sudo apt-get install maim xclip
+ 1447  nano ~/.config/i3/config\n
+ 1448  i3-msg reload\n
+ 1449  npm start
+ 1450  git add .
+ 1451  git commit -m"homescreen"
+ 1452  git push
+ 1453  cat Documents/access.txt 
+ 1454  git add .
+ 1455  git commit -m"products"
+ 1456  git push
+ 1457  pkill i3
+ 1458  nano /home/mus/.zshrc
+ 1459  code /home/mus/.zshrc
+ 1460  cd Desktop
+ 1461  mkdir Practical8
+ 1462  touch Thread.c
+ 1463  mv Thread.c ~/Desktop/Practical8
+ 1464  cd Practical8
+ 1465  code .
+ 1466  gcc -o Thread.c Thread
+ 1467  ls
+ 1468  touch Thread.c
+ 1469  nano Thread.c
+ 1470  gcc -o Thread.c Thread
+ 1471  ls
+ 1472  touch
+ 1473  touch Thread.c
+ 1474  nano Thread.c
+ 1475  gcc -o Thread.c Thread
+ 1476  mkdir Lab8
+ 1477  cd Lab8
+ 1478  touch Thread.c
+ 1479  nano Thread.c
+ 1480  gcc -o Thread.c Thread
+ 1481  ls
+ 1482  gcc -o Thread Thread.c
+ 1483  code .
+ 1484  cd "/home/mus/Documents/cpp/Lab8/output"
+ 1485  ./"Thread"
+ 1486  cd "/home/mus/Documents/cpp/Lab8/output"
+ 1487  ./"Thread"
+ 1488  gtg,cd "/home/mus/Documents/cpp/Lab8/output"
+ 1489  ./"Thread"
+ 1490  history|grep uniq
+ 1491  ./"Thread"cd "/home/mus/Documents/cpp/Lab8/output"
+ 1492  ./"Thread"
+ 1493  cd "/home/mus/Documents/cpp/Lab8/output"
+ 1494  ./"Thread"
+ 1495  cd "/home/mus/Documents/cpp/Lab8/output"
+ 1496  ./"Thread"
+ 1497  pkill cinnamon
+ 1498  cd Documents/chelan/Bart/Mobile
+ 1499  code .
+ 1500  npm start
+ 1501  cd Documents/chelan/Bart/Mobile
+ 1502  git checkout main
+ 1503  git fetch origin main
+ 1504  cat Documents/access.txt
+ 1505  git checkout MustafaDEv
+ 1506  git checkout MustafaDev
+ 1507  git checkout main
+ 1508  git pull
+ 1509  npm i
+ 1510  git pull
+ 1511  npm i
+ 1512  rm -rf node_modules\nrm package-lock.json\nnpm install\n
+ 1513  npm install
+ 1514  npm cache clean --force\n
+ 1515  npm install
+ 1516  npm start
+ 1517  npm install
+ 1518  npm start
+ 1519  git pull
+ 1520  git checkout MustafaDev
+ 1521  git reset HEAD --hard
+ 1522  git pull
+ 1523  git checkout MustafaDev
+ 1524  npm start
+ 1525  git checkout MustafaDev
+ 1526  npm start
+ 1527  git pull
+ 1528  npm start
+ 1529  git merge main
+ 1530  git push
+ 1531  cd Documents/chelan/Bart/Mobile
+ 1532  code .
+ 1533  nano /home/mus/.zshrc
+ 1534  code /home/mus/.zshrc
+ 1535  npm start
+ 1536  cd Documents/chelan/Bart/Mobile
+ 1537  git checkout main
+ 1538  npm start
+ 1539  omz update
+ 1540  pkill cinnamon
+ 1541  cd Documents/chelan/Bart/Mobile
+ 1542  code .
+ 1543  cat Documents/access.txt
+ 1544  cd Documents/chelan/Bart/Mobile
+ 1545  npm start
+ 1546  git pull
+ 1547  git checkout main
+ 1548  git checkout MustafaDev
+ 1549  git merge main
+ 1550  npm start
+ 1551  git add .
+ 1552  git commit -m"product page updates"
+ 1553  git push
+ 1554  npm start
+ 1555  git add .
+ 1556  git commit -m"description completed"
+ 1557  git push
+ 1558  cd Documents/chelan/Bart/Mobile
+ 1559  code .
+ 1560  cat Documents/access.txt
+ 1561  npm start
+ 1562  cd Documents/chelan/Bart/Mobile
+ 1563  sudo apt update code
+ 1564  wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg\nsudo install -o root -g root -m 644 packages.microsoft.gpg /usr/share/keyrings/\nsudo sh -c 'echo "deb [arch=amd64 signed-by=/usr/share/keyrings/packages.microsoft.gpg] https://packages.microsoft.com/repos/code stable main" > /etc/apt/sources.list.d/vscode.list'\nrm -f packages.microsoft.gpg\n
+ 1565  sudo apt update\nsudo apt install code\n
+ 1566  git checkout main
+ 1567  git pull
+ 1568  git checkout MustafaDev
+ 1569  git merge main
+ 1570  git add .
+ 1571  git commit -m"only icon left"
+ 1572  git push
+ 1573  free -h\n
+ 1574  git add .
+ 1575  git commit -m"completed styling"
+ 1576  git push
+ 1577  cd Documents/chelan/Bart/Mobile
+ 1578  git checkout main
+ 1579  git fetch origin main
+ 1580  cat Documents/access.txt
+ 1581  git pull
+ 1582  npm start
+ 1583  pkill i3
+ 1584  cd Documents
+ 1585  npm create vite@latest
+ 1586  d muaqah-portfolio\n  npm install\n  npm run dev
+ 1587  Cd muaqah-portfolio\n  npm install\n  npm run dev
+ 1588  cd muaqah-portfolio\n  npm install\n  npm run dev
+ 1589  git remote add origin https://github.com/Musxeto/mauqah.git
+ 1590  git remote add origin https://github.com/Musxeto/mauqah.git\ngit branch -M main\ngit push -u origin main
+ 1591  git init
+ 1592  git remote add origin https://github.com/Musxeto/mauqah.git\ngit branch -M main\ngit push -u origin main
+ 1593  git add .\ngit commit -m "Initial commit"\n
+ 1594  git branch -M main\n
+ 1595  git remote add origin https://github.com/Musxeto/mauqah.git\n
+ 1596  git push -u origin main\n
+ 1597  ls -al ~/.ssh\n
+ 1598  cat ~/.ssh/id_ed25519.pub\n
+ 1599  eval "$(ssh-agent -s)"\nssh-add ~/.ssh/id_ed25519\n
+ 1600  ssh -T git@github.com\n
+ 1601  ssh-add -l\n
+ 1602  ssh-add ~/.ssh/id_ed25519\n
+ 1603  ssh -vT git@github.com\n
+ 1604  Host github.com\n  HostName github.com\n  User git\n  IdentityFile ~/.ssh/id_ed25519\n
+ 1605  ssh -T git@github.com\n
+ 1606  git push -u origin main\n
+ 1607  cat ~/.ssh/id_ed25519.pub\n
+ 1608  ssh-add ~/.ssh/id_ed25519\n
+ 1609  ssh-add -l\n
+ 1610  nano ~/.ssh/config\n
+ 1611  ssh -T git@github.com\n
+ 1612  git push -u origin main\n
+ 1613  git remote add origin git@github.com:Musxeto/mauqah.git
+ 1614  git remote -v\n
+ 1615  git remote set-url origin git@github.com:Musxeto/mauqah.git\n
+ 1616  git remote -v\n
+ 1617  git push -u origin main\n
+ 1618  npm run dev
+ 1619  cd Documents/muaqah-portfolio
+ 1620  code .
+ 1621  pkill i3
+ 1622  xrandr\n
+ 1623  xrandr --output HDMI-1 --auto --right-of eDP-1\n
+ 1624  ~/.config/i3/config
+ 1625  nano ~/.config/i3/config
+ 1626  pkill cinnamon
+ 1627  cd Documents/chelan/Bart/Mobile
+ 1628  git pull
+ 1629  cat Documents/access.txt
+ 1630  git remote -v\n
+ 1631  git remote set-url origin git@git.chelan.cc:engineering/chelan.git\n
+ 1632  git remote -v\n
+ 1633  ssh -T git@git.chelan.cc\n
+ 1634  ^[[200~cat ~/.ssh/id_rsa.pub
+ 1635  ~cat ~/.ssh/id_rsa.pub\n
+ 1636  cat ~/.ssh/id_rsa.pub\n
+ 1637  pbcopy < ~/.ssh/id_rsa.pub\n
+ 1638  sudo apt install pbcopy
+ 1639  sudo apt install xclip\n
+ 1640  xclip -sel clip < ~/.ssh/id_rsa.pub\n
+ 1641  ssh-add -l\n
+ 1642  ssh-add ~/.ssh/id_rsa\n
+ 1643  eval "$(ssh-agent -s)"\n
+ 1644  ssh-add ~/.ssh/id_rsa\n
+ 1645  ssh -T git@git.chelan.cc\n
+ 1646  ssh -vT git@git.chelan.cc\n
+ 1647  ping git.chelan.cc\n
+ 1648  ~/.config/picom/picom.conf
+ 1649  nano ~/.config/picom/picom.conf
+ 1650  pkill picom && picom &\n
+ 1651  ps aux | grep -E 'picom|compton|mutter|kwin|compiz'\n
+ 1652  pkill i
+ 1653  pkill i3
+ 1654  pkill cinnamon
+ 1655  nano ~/.config/i3/config
+ 1656  xrandr --output eDP-1 --mode 1366x768 --output HDMI-1 --mode 1920x1080 --right-of eDP-1
+ 1657  xrandr --output eDP-1 --output HDMI-1 --right-of eDP-1
+ 1658  xrandr\n
+ 1659  xrandr --output eDP-1 --mode 1366x768 --output HDMI-1 --mode 1920x1080 --right-of eDP-1\n
+ 1660  nano ~/.config/i3/config
+ 1661  nano ~/.config/picom/picom.conf
+ 1662  pkill i3
+ 1663  nano ~/.config/picom/picom.conf
+ 1664  cd Documents/chelan/Bart/Mobile
+ 1665  git pull
+ 1666  git checkout MustafaDev
+ 1667  git reset HEAD --hard
+ 1668  git merge main
+ 1669  git reset HEAD --hard
+ 1670  git checkout main
+ 1671  git fetch origin main
+ 1672  git remote set-url origin https://git.chelan.cc/engineering/chelan.git\n
+ 1673  git remote  -v
+ 1674  git fetch origin main
+ 1675  nano Documents/access.txt
+ 1676  git fetch origin main
+ 1677  cat Documents/access.txt
+ 1678  git fetch origin main
+ 1679  nano Documents/access.txt
+ 1680  git pull
+ 1681  git checkout MustafaDev
+ 1682  git merge main
+ 1683  code .
+ 1684  git reset HEAD --HARD
+ 1685  git reset HEAD --hard
+ 1686  pkill i3
+ 1687  cd Documents/chelan/Bart/Mobile
+ 1688  git checkout main
+ 1689  git pull
+ 1690  cat Documents/access.txt
+ 1691  code .
+ 1692  npm start
+ 1693  cd Documents/chelan/Bart/Mobile
+ 1694  git checkout MustafaDev
+ 1695  git merge main
+ 1696  git reset HEAD --hard
+ 1697  git merge main
+ 1698  git reset HEAD --HARD
+ 1699  git reset HEAD --hard
+ 1700  git merge main
+ 1701  git reset HEAD --hard
+ 1702  git checkout MusDev
+ 1703  git fetch origin
+ 1704  git checkout MusDev
+ 1705  git add .
+ 1706  git add 
+ 1707  git add .
+ 1708  git commit -m"wokring on it"
+ 1709  git push
+ 1710  git add .
+ 1711  git push
+ 1712  git add .
+ 1713  git commit -m"page header control component"
+ 1714  git push
+ 1715  git add .
+ 1716  git commit -m"page header control component"
+ 1717  git push
+ 1718  git add .
+ 1719  git commit -m"page header control component"
+ 1720  git push
+ 1721  cd Documents/chelan/Bart/Mobile
+ 1722  git checkout main
+ 1723  git pull
+ 1724  cat Documents/access.txt
+ 1725  git checkout MustafaDev
+ 1726  code .
+ 1727  npm start
+ 1728  git checkout main
+ 1729  git checkout Mustafa Dev
+ 1730  git checkout MusDev
+ 1731  git merge main
+ 1732  npm i
+ 1733  git reset HEAD--hard
+ 1734  git reset HEAD --hard
+ 1735  git checkout main
+ 1736  git reset HEAD--hard
+ 1737  git reset HEAD --hard
+ 1738  git checkout main
+ 1739  git checkout MusDev
+ 1740  git reset HEAD--hard
+ 1741  git reset HEAD --hard
+ 1742  git log\n
+ 1743  [200~git reset --hard c2cd59f
+ 1744  git reset --hard c2cd59f\n
+ 1745  git revert -m 1 c2cd59f0234d99871568cc84f36db9ce58ed0d1b\n
+ 1746  expo start -c\n
+ 1747  npm start -c
+ 1748  npm merge main
+ 1749  git merge main
+ 1750  git reset HEAD--hard
+ 1751  git reset HEAD --hard
+ 1752  git add .
+ 1753  git commit -m"chnages according to the comments"
+ 1754  git push
+ 1755  cd Documents/chelan/Bart/Mobile
+ 1756  code .
+ 1757  git add .
+ 1758  git commit -m"FIXED THE WORKFLOW PASSING"
+ 1759  git push
+ 1760  git add .
+ 1761  git commit -m"FIXED THE WORKFLOW PASSING"
+ 1762  git push
+ 1763  cd Documents
+ 1764  git clone git@github.com:Musxeto/mauqah.git
+ 1765  pulseaudio --version\n
+ 1766  pactl set-sink-volume @DEFAULT_SINK@ +5%\n
+ 1767  pactl set-sink-volume @DEFAULT_SINK@ +100%\n
+ 1768  pactl set-sink-volume @DEFAULT_SINK@ +200%\n
+ 1769  pactl set-sink-volume @DEFAULT_SINK@ +500%\n
+ 1770  pactl set-sink-volume @DEFAULT_SINK@ +1000%\n
+ 1771  pactl set-sink-volume @DEFAULT_SINK@ -1745%\n
+ 1772  pactl set-sink-volume @DEFAULT_SINK@ -1000%\n
+ 1773  pactl set-sink-volume @DEFAULT_SINK@ -100%\n
+ 1774  pactl set-sink-volume @DEFAULT_SINK@ +100%\n
+ 1775  sudo apt install pavucontrol\n
+ 1776  cd mauqah
+ 1777  npm i
+ 1778  npm run dev -- --host
+ 1779  cd Documents/mauqah
+ 1780  code .
+ 1781  npm run dev
+ 1782  npm uninstall react-loading
+ 1783  git add .
+ 1784  git commit -m"removed corrupted package"
+ 1785  git push
+ 1786  npm run dev
+ 1787  git add .
+ 1788  git commit -m"gallery"
+ 1789  git push]
+ 1790  git push
+ 1791  npm install react-h5-audio-player\n
+ 1792  git add .
+ 1793  git commit -m"interviews"
+ 1794  git push
+ 1795  git commit -m"interviews and some changes in ui"
+ 1796  git add .
+ 1797  git commit -m"interviews and some changes in ui"
+ 1798  git push
+ 1799  git add .
+ 1800  git commit -m"about page"
+ 1801  git push
+ 1802  git add .
+ 1803  git commit -m"about page"
+ 1804  git push
+ 1805  git add .
+ 1806  git commit -m"resources"
+ 1807  git push
+ 1808  git add .
+ 1809  git commit -m"no /public"
+ 1810  git push
+ 1811  git add .
+ 1812  git commit -m"  "
+ 1813  git push
+ 1814  git pull
+ 1815  git add .
+ 1816  git commit -m"new color and changed stuff"
+ 1817  git push
+ 1818  git add .
+ 1819  git commit -m"h"
+ 1820  git push
+ 1821  git pull
+ 1822  git config pull.rebase false
+ 1823  git config pull.rebase true
+ 1824  git config pull.ff only
+ 1825  git pull
+ 1826  git rebase'
+ 1827  git rebase
+ 1828  git pull
+ 1829  git rebase
+ 1830  git pull
+ 1831  git rebase
+ 1832  git add .
+ 1833  git commit -m"real"
+ 1834  git push
+ 1835  git add .
+ 1836  git commit -m"colour changed from yellow to pink"
+ 1837  git push
+ 1838  git add .
+ 1839  git commit -m"snippets with shehnaz"
+ 1840  git push
+ 1841  git add .
+ 1842  git commit -m"use own font"
+ 1843  git push
+ 1844  git add .
+ 1845  git commit -m"404"
+ 1846  git push
+ 1847  git add .
+ 1848  git commit -m"yellow nav"
+ 1849  git push
+ 1850  top
+ 1851  sudo apt install htop
+ 1852  htop
+ 1853  free -h
+ 1854  nano
+ 1855  ls
+ 1856  cat lyrics
+ 1857  nano 
+ 1858  cd Documents/mauqah
+ 1859  npm run dev
+ 1860  mv IMG_7157 wazirabad1
+ 1861  mv IMG_7157.MOV wazirabad1
+ 1862  git pull
+ 1863  git add .
+ 1864  git commit -m""
+ 1865  git commit -m"."
+ 1866  git push
+ 1867  ^[[200~npm install react-slick slick-carousel
+ 1868  npm install react-slick slick-carousel\n
+ 1869  npm run dev
+ 1870  git add .
+ 1871  git add .\ngit commit -m "Initial commit"\n
+ 1872  git push
+ 1873  sudo apt install neohtop
+ 1874  htop
+ 1875  sudo apt remove mysql
+ 1876  mysql
+ 1877  sudo apt-get remove --purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*\nsudo apt-get autoremove\nsudo apt-get autoclean\n
+ 1878  htop
+ 1879  sudo systemctl stop mysql\n
+ 1880  sudo systemctl status mysql\n
+ 1881  sudo apt-get purge mysql-server mysql-client mysql-common mysql-server-core-* mysql-client-core-*\nsudo apt-get autoremove\nsudo apt-get autoclean\n
+ 1882  sudo rm -rf /etc/mysql /var/lib/mysql\nsudo rm -rf /var/log/mysql /var/log/mysql.*\nsudo rm -rf /var/cache/apt/archives/mysql*\n
+ 1883  htop
+ 1884  git add .
+ 1885  git commit -m"hunza project all videos"
+ 1886  git push
+ 1887  cd Documents/mauqah
+ 1888  npm run dev
+ 1889  cd Downloads
+ 1890  ls
+ 1891  grep mauqah
+ 1892  Shazelle—Mauqah Website—2024-12-20.docx
+ 1893  cd Documents/mauqah
+ 1894  npm run dev
+ 1895  cd Documents/mauqah
+ 1896  npm run dev
+ 1897  git reset HEAD--hard
+ 1898  git reset HEAD --hard
+ 1899  cd Documents/mauqah
+ 1900  npm run dev
+ 1901  git add .
+ 1902  git commit -m"wazirabad field study"
+ 1903  git push
+ 1904  git add .
+ 1905  git commit -m"all pages completed , new pages, new componenets, bug fixes"
+ 1906  git push
+ 1907  git add .
+ 1908  git commit -m"some more repsosive bugs"
+ 1909  git push
+ 1910  git add .
+ 1911  git commit -m"vid bg"
+ 1912  git push
+ 1913  git add .
+ 1914  git commit -m"final bug fixes"
+ 1915  git push
+ 1916  git add .
+ 1917  git commit -m"slate salte"
+ 1918  git push
+ 1919  git add .
+ 1920  git commit -m"new stuff"
+ 1921  git push
+ 1922  git add .
+ 1923  git commit -m"real"
+ 1924  git add .
+ 1925  git commit -m"real"
+ 1926  git push
+ 1927  pkill i3
+ 1928  cd  Documents/mauqah
+ 1929  npm run dev
+ 1930  git add .
+ 1931  git commit -m"more small changes"
+ 1932  git push
+ 1933  git add .
+ 1934  git commit -m".."
+ 1935  git push
+ 1936  npm run dev
+ 1937  git add .
+ 1938  git commit -m"loading images"
+ 1939  git push
+ 1940  git add .
+ 1941  git commit -m"loading images"
+ 1942  git push
+ 1943  git add .
+ 1944  git commit -m"loading images"
+ 1945  git push
+ 1946  git add .
+ 1947  git push
+ 1948  git add .
+ 1949  git commit -m"loading images"
+ 1950  git push
+ 1951  pkill i3
+ 1952  cd Documents/chelan/Bart/Mobile
+ 1953  git checkout main
+ 1954  git pull
+ 1955  cat Documents/access.txt
+ 1956  git checkout MusDev
+ 1957  git merge main
+ 1958  npm start
+ 1959  cd Documents/chelan/Bart/Mobile
+ 1960  code .
+ 1961  git add .
+ 1962  git commit -m"page header type"
+ 1963  git push
+ 1964  cd Documents/chelan/Bart/Mobile
+ 1965  git checkout main
+ 1966  git pull
+ 1967  cat Documents/access.txt
+ 1968  git checkout MusDev
+ 1969  git merge main
+ 1970  code .
+ 1971  git push
+ 1972  git checkout main
+ 1973  npm start
+ 1974  git checkout MusDev
+ 1975  git checkout MusDEv
+ 1976  git checkout MusDev
+ 1977  git merge main
+ 1978  git add .
+ 1979  git commit -m"FIXED"
+ 1980  git push
+ 1981  git add .
+ 1982  git commit -m"updated page header usage in AddEditProductPage"
+ 1983  git push
+ 1984  git add .
+ 1985  git commit -m"updated page header usage in AddEditProductPage"
+ 1986  git push
+ 1987  pkill i3
+ 1988  pkill cinnamon
+ 1989  cd Documents/mauqah
+ 1990  code .
+ 1991  npm run dev
+ 1992  git add .
+ 1993  git commit -m"new reqs"
+ 1994  git push
+ 1995  git pull
+ 1996  git rebase
+ 1997  git push
+ 1998  git add .
+ 1999  git commit -m"smooth transiton"
+ 2000  git push
+ 2001  npm run dev
+ 2002  npm install react-responsive-carousel\n
+ 2003  git add .
+ 2004  git commit -m"real"
+ 2005  git push
+ 2006  git add .
+ 2007  git commit -m"real"
+ 2008  git push
+ 2009  git add .
+ 2010  git commit -m
+ 2011  git commit -m"padding fix"
+ 2012  git push
+ 2013  git add .
+ 2014  git commit -m"missing tab"
+ 2015  git push
+ 2016  git add .
+ 2017  git commit -m"bug"
+ 2018  git push
+ 2019  git add .
+ 2020  git commit -m"bug"
+ 2021  git push
+ 2022  cd Documents/chelan/Bart/Mobile
+ 2023  git checkout main
+ 2024  git pull
+ 2025  cat Documents/access.txt
+ 2026  git checkout main
+ 2027  git checkout MusDev
+ 2028  git merge main
+ 2029  code .
+ 2030  cat Documents/access.txt
+ 2031  npm start
+ 2032  git add .
+ 2033  git commit -m"false show back button in offer page"
+ 2034  git push
+ 2035  omz update
+ 2036  cd Documents/chelan/Bart/Mobile
+ 2037  git checkout main
+ 2038  git pull
+ 2039  cat Documents/access.txt
+ 2040  code .
+ 2041  npm start
+ 2042  git pull
+ 2043  git checkout MusDev
+ 2044  git merge main
+ 2045  git reset HEAD --hard
+ 2046  git merge main
+ 2047  cat Documents/access.txt
+ 2048  cd Documents/chelan/Bart/Mobile
+ 2049  git merge main
+ 2050  git reset HEAD --hard
+ 2051  git merge main
+ 2052  code .
+ 2053  git add .
+ 2054  git commit -m"merge main"
+ 2055  git push
+ 2056  commit -m"help page page header"
+ 2057  git push
+ 2058  git commit -m"help page page header"
+ 2059  git add .
+ 2060  git commit -m"help page page header"
+ 2061  git add .
+ 2062  git commit -m"wish list page , themed page "
+ 2063  git push
+ 2064  git add .
+ 2065  git commit -m"wish list page , themed page "
+ 2066  git push
+ 2067  cd Documents/chelan/Bart/Mobile/]
+ 2068  cd Documents/chelan/Bart/Mobile
+ 2069  git checkout main
+ 2070  git pull
+ 2071  cat Documents/access.txt
+ 2072  git checkout MusDEv
+ 2073  git checkout MusDev
+ 2074  git merge main
+ 2075  code .
+ 2076  npm start
+ 2077  cd Documents/chelan/Bart/Mobile
+ 2078  cat Documents/access.txt
+ 2079  git merge main
+ 2080  git add .
+ 2081  git commit -m"safe area removed"
+ 2082  git push
+ 2083  git add .
+ 2084  git commit -m"Implmeneted in three more page"
+ 2085  git push
+ 2086  git add .
+ 2087  git commit -m"Implmeneted in locationpage"
+ 2088  git add .
+ 2089  git commit -m"all profile apges complete"
+ 2090  git push
+ 2091  cd Documents/chelan/Bart/Mobile
+ 2092  git checkout main
+ 2093  git pull
+ 2094  cat Documents/access.txt
+ 2095  git checkout MusDev
+ 2096  git merge main
+ 2097  git push
+ 2098  code .
+ 2099  git add 
+ 2100  git add .
+ 2101  git commit -m"edits according comments"
+ 2102  git push
+ 2103  npm start
+ 2104  git add .
+ 2105  git commit -m"themd page in offers page"
+ 2106  git push
+ 2107  git add .
+ 2108  git commit -m"themd page in remaining buy  page"
+ 2109  git push
+ 2110  git add .
+ 2111  git commit -m"added in ads pages"
+ 2112  git push
+ 2113  git add .
+ 2114  git commit -m"typo"
+ 2115  git push
+ 2116  git pull
+ 2117  git rebase
+ 2118  git push
+ 2119  git checkout main
+ 2120  git pull
+ 2121  cd Documents
+ 2122  mkdir cpp
+ 2123  mkdir c++
+ 2124  cd c++
+ 2125  code .
+ 2126  cd Documents/mauqah
+ 2127  git pull
+ 2128  code .
+ 2129  git add .
+ 2130  git commit -m"shehnaz name change"
+ 2131  git push
+ 2132  cd Documents/chelan/Bart/Mobile
+ 2133  code .
+ 2134  git pull
+ 2135  cat Documents/access.txt
+ 2136  git checkout MusDev
+ 2137  git merge main
+ 2138  npm start
+ 2139  git add .
+ 2140  git commit -m"minors"
+ 2141  git push
+ 2142  npm i
+ 2143  GIT ADD .
+ 2144  git add .
+ 2145  git commit -m"ficed"
+ 2146  git push
+ 2147  pkill i3
+ 2148  pkill cinnamon
+ 2149  pkill i3
+ 2150  cd Documents
+ 2151  mkdir Lab10
+ 2152  cd Lab10
+ 2153  touch Semaphore.c
+ 2154  code .
+ 2155  gcc -o Semaphore Semaphore.c
+ 2156  ./Semaphore
+ 2157  touch producer-consumer.c
+ 2158  gcc -o producer-consumer producer-consumer.c
+ 2159  ./producer-consumer
+ 2160  ./Semaphore
+ 2161  ./producer-consumer
+ 2162  gcc -o producer-consumer producer-consumer.c
+ 2163  ./producer-consumer
+ 2164  cd ..
+ 2165  mkdir Lab11
+ 2166  cd Lab11
+ 2167  touch Banker.c
+ 2168  code .
+ 2169  cd "/home/mus/Documents/Lab11/output"
+ 2170  ./"Banker"
+ 2171  ./Banker
+ 2172  cd "/home/mus/Documents/Lab11/output"
+ 2173  ./"Banker"
+ 2174  cd "/home/mus/Documents/Lab11/output"
+ 2175  ./"Banker"
+ 2176  cd "/home/mus/Documents/Lab11/output"
+ 2177  ./"Banker"
+ 2178  cd "/home/mus/Documents/Lab11/output"
+ 2179  ./"Banker"
+ 2180  pkill cinnamon
+ 2181  pkill i3
+ 2182  pkill cinnamon
+ 2183  cd Documents/chelan
+ 2184  cd Documents/chelan/Bart/Mobile
+ 2185  git checkout main
+ 2186  git pull
+ 2187  cat Documents/access.txt
+ 2188  git checkout MusDev
+ 2189  git merge main
+ 2190  git reset HEAD --hard
+ 2191  code .
+ 2192  git merge main
+ 2193  git add .
+ 2194  git commit -m"merge main
+ 2195  git commit -m"merge main"
+ 2196  git push
+ 2197  cd Documents/chelan/Bart/Mobile
+ 2198  c
+ 2199  cat Documents/access.txt
+ 2200  npm start
+ 2201  git checkout main
+ 2202  npm start
+ 2203  git checkout MusDEv
+ 2204  git checkout MusDev
+ 2205  npm start
+ 2206  kill i3
+ 2207  pkill i3
+ 2208  pkill cinnamon
+ 2209  pkill i3
+ 2210  firefox
+ 2211  sudo apt update\nsudo apt install qemu qemu-system\n
+ 2212  qemu
+ 2213  sudo apt update\nsudo apt install qemu-system-x86\n
+ 2214  cd ~/Documents\n
+ 2215  ^[[200~qemu-system-x86_64 -drive file=ArcadeOS.img,format=raw
+ 2216  qemu-system-x86_64 -drive file=ArcadeOS.img,format=raw\n
+ 2217  sudo apt update\n
+ 2218  sudo apt install openjdk-17-jdk\n
+ 2219  java -version\n
+ 2220  sudo apt install openjdk-23-jdk\n
+ 2221  sudo apt install openjdk-21-jdk
+ 2222  sudo apt install openjdk-22-jdk
+ 2223  sudo apt install openjdk-21-jdk
+ 2224  cd ~/Downloads
+ 2225  unzip TLauncher.zip -d TLauncher\n
+ 2226  unzip TLauncher.v12.zip -d TLauncher
+ 2227  cd TLauncher\n
+ 2228  java -jar TLauncher.jar\n
+ 2229  lsblk\n
+ 2230  which dd\n
+ 2231  sudo apt update && sudo apt install coreutils\n
+ 2232  sudo dd if=TempleOS.iso of=/dev/sdb bs=4M status=progress\n
+ 2233  cd Downloads
+ 2234  sudo dd if=TempleOS.iso of=/dev/sdb bs=4M status=progress\n
+ 2235  cd ../Documents
+ 2236  sudo dd if=TempleOS.iso of=/dev/sdb bs=4M status=progress\n
+ 2237  firefox
+ 2238  sudo dd if=TempleOS.ISO of=/dev/sdb bs=4M status=progress\n
+ 2239  ls -lh TempleOS.ISO\n
+ 2240  sha256sum TempleOS.ISO\n
+ 2241  sudo dd if=TempleOS.ISO of=/dev/sdb bs=4M status=progress\n
+ 2242  pkil i3
+ 2243  pkill\ i3
+ 2244  pkill i3
+ 2245  sudo umount /dev/sdb\n
+ 2246  sudo eject /dev/sdb\n
+ 2247  pkill i3
+ 2248  cd Documents
+ 2249  qemu-system-x86_64 -cdrom TempleOS.ISO -boot d -m 512M\n
+ 2250  sudo mkfs.vfat /dev/sdb\n
+ 2251  sudo dd if=TempleOS.ISO of=/dev/sdb bs=4M status=progress\n
+ 2252  qemu-system-x86_64 -drive file=/dev/sdb,format=raw\n
+ 2253  sudo qemu-system-x86_64 -drive file=/dev/sdb,format=raw\n
+ 2254  pkill i3
+ 2255  cd Documents/chelan/Bart/Mobile
+ 2256  git checkout main
+ 2257  git pull
+ 2258  cat Documents/access.txt
+ 2259  OA
+ 2260  cat Documents/access.txt
+ 2261  git pull
+ 2262  code .
+ 2263  npm start
+ 2264  git reset HEAD --hard
+ 2265  git pull
+ 2266  git checkout MustafaDEv
+ 2267  git checkout MustafaDev
+ 2268  git checkout MUsDEv
+ 2269  git checkout MusDEv
+ 2270  git checkout MusDev
+ 2271  npm start
+ 2272  git add .
+ 2273  git commit -m"info showing"
+ 2274  git push
+ 2275  git add .
+ 2276  git commit -m"styling better"
+ 2277  git push
+ 2278  git add .
+ 2279  git commit -m"styling more changes"
+ 2280  git push
+ 2281  cd Documents/chelan/Bart/Mobile
+ 2282  git pull
+ 2283  cat Documents/a
+ 2284  cat Documents/access.txt
+ 2285  git pull
+ 2286  git checkout main
+ 2287  git pull
+ 2288  code .
+ 2289  git checkout MustafaDev
+ 2290  git merge main
+ 2291  git reset HEAD --hard
+ 2292  git merge main
+ 2293  git reset HEAD --hard
+ 2294  git checkout MusDev
+ 2295  git merge main
+ 2296  cd Documents/chelan/Bart/Mobile
+ 2297  npm start
+ 2298  cd Documents
+ 2299  code .
+ 2300  cd "/home/mus/Documents/output"
+ 2301  ./"fcfs"
+ 2302  ./"priority"
+ 2303  pkill
+ 2304  pkill i3
+ 2305  pkill cinnamon
+ 2306  cd Documents/chelan/Bart/Mobile
+ 2307  code .
+ 2308  git checkout main
+ 2309  code .
+ 2310  git pull
+ 2311  cat Documents/access.txt
+ 2312  git pull
+ 2313  git checkout MusDev
+ 2314  git merge main
+ 2315  code .
+ 2316  git push
+ 2317  npm start
+ 2318  cd Documents/chelan/Bart/Mobile
+ 2319  amixer set Master 10%+\n
+ 2320  pkill i3
+ 2321  cd Documents/chelan/Bart/Mobile
+ 2322  ls
+ 2323  pwd
+ 2324  mkdir -p ~/chelan\n
+ 2325  geit\n
+ 2326  gedit /chelan\n
+ 2327  code /chelan\n
+ 2328  cd Documents/chelan/Bart/Mobile
+ 2329  git checkour main
+ 2330  git checkouT main
+ 2331  git checkout main
+ 2332  code .
+ 2333  cat Documents/access.txt
+ 2334  cd Documents/chelan/Bart/Mobile
+ 2335  npm start
+ 2336  git add .
+ 2337  git commit -m"fixed"
+ 2338  git push
+ 2339  git add .
+ 2340  git commit -m"resons completed"
+ 2341  git push
+ 2342  mkdir -p ~/chelan\n
+ 2343  cd ~/chelan\nmake\n
+ 2344  cd ~/chelan\n
+ 2345  ls
+ 2346  nano ~/chelan/Makefile\n
+ 2347  make\n
+ 2348  cat Documents/access.txt
+ 2349  make\n
+ 2350  pkill i3
+ 2351  cd Documents/chelan/Bart/Mobile
+ 2352  git checkout main
+ 2353  git pull 
+ 2354  cat Documents/a
+ 2355  cat Documents/access.txt
+ 2356  git checkout main
+ 2357  git merge main
+ 2358  git checkout MusDev
+ 2359  git pit push
+ 2360  git push
+ 2361  pkill i3
+ 2362  cd Documents/chelan/Bart/Mobile
+ 2363  git pull
+ 2364  cd Documents/chelan/Bart/Mobile
+ 2365  cat Documents/access.txt
+ 2366  git push
+ 2367  code .
+ 2368  npm start
+ 2369  nano
+ 2370  npm start
+ 2371  cd Documents/chelan
+ 2372  git add .
+ 2373  git commit -m"real"
+ 2374  git push
+ 2375  pkill i3
+ 2376  cd Documents/chelan/Bart/Mobile
+ 2377  npm start
+ 2378  cd Documents/chelan/Bart/Mobile
+ 2379  npm start
+ 2380  cd Documents/chelan/Bart/Mobile
+ 2381  code .
+ 2382  git add .
+ 2383  git commit -m"real"
+ 2384  git push
+ 2385  cat Documents/access.txt
+ 2386  cd Documents/chelan/Bart/Mobile
+ 2387  git checkout main
+ 2388  git pull
+ 2389  cat Documents/access.txt
+ 2390  git checkout MusDev
+ 2391  git merge main
+ 2392  code .
+ 2393  cd Documents/chelan/Bart/Mobile
+ 2394  git checkout main
+ 2395  git pull
+ 2396  cat Documents/access.txt
+ 2397  git pull
+ 2398  git checkout MusDEv
+ 2399  git checkout MusDev
+ 2400  got merge main
+ 2401  git merge main
+ 2402  git push
+ 2403  code .
+ 2404  npm start
+ 2405  npm i
+ 2406  cd Documents/chelan/Bart/Mobile
+ 2407  npm i
+ 2408  git add .
+ 2409  git commit -m"a checkpoint before review"
+ 2410  git push
+ 2411  git add .
+ 2412  git commit -m"seller name"
+ 2413  git push
+ 2414  git add .
+ 2415  git commit -m"photo view update, ui issues solved"
+ 2416  git push
+ 2417  textStyle={{ fontSize: 12 }}
+ 2418  git push
+ 2419  cat Documents/access.txt
+ 2420  git add .
+ 2421  git commit -m"color back"
+ 2422  git add .
+ 2423  git commit -m"extra spaces"
+ 2424  git push
+ 2425  cd Desktop
+ 2426  mkdir Lab14
+ 2427  cd Lab14
+ 2428  cd Desktop/Lab14
+ 2429  code .
+ 2430  touch Sender.c Reciever.c
+ 2431  gcc -o Sender Sender.c
+ 2432  ./Sender
+ 2433  cc -o Reciever  Reciever.c
+ 2434  ./Reciever
+ 2435  cd Desktop
+ 2436  mkdir Lab12
+ 2437  cd Lab12
+ 2438  cd Desktop/Lab12
+ 2439  touch memory.c
+ 2440  code .
+ 2441  gcc -o memory memory.c
+ 2442  gcc -o memory memory.c -lm\n
+ 2443  ./memory\n
+ 2444  code .
+ 2445  cd Desktop/Lab12
+ 2446  gcc -o memory memory.c -lm\n
+ 2447  ./memory\n
+ 2448  cd Desktop/Lab12
+ 2449  gcc -o memory memory.c -lm\n
+ 2450  cd Desktop/Lab12
+ 2451  ./memory\n
+ 2452  cd Documents
+ 2453  code .
+ 2454  cd ~/Documents\n
+ 2455  qemu-system-x86_64 -boot d -cdrom "TempleOS.ISO" -m 2048\n
+ 2456  cd ~/Documents\n
+ 2457  qemu-system-x86_64 -boot d -cdrom "ArcadeOS.img" -m 2048\n
+ 2458  cpde .
+ 2459  code .
+ 2460  qemu-system-x86_64 -hda "ArcadeOS.img" -m 512 -boot c\n
+ 2461  pkill i3
+ 2462  cd Documents/chelan/Bart/Mobile
+ 2463  cd Documents
+ 2464  ls
+ 2465  cd oslab
+ 2466  mkdir bankers
+ 2467  cd bankers
+ 2468  code .
+ 2469  /bin/python3 /home/mus/Documents/oslab/bankers/bankers.py
+ 2470  cd Documents
+ 2471  cd oslab
+ 2472  git add .
+ 2473  git commit -m"hehe"
+ 2474  git push
+ 2475  git remote add origin git@github.com:Musxeto/oslab.git\ngit branch -M main\ngit push -u origin main
+ 2476  git add .
+ 2477  git commit -m"oslab stuff"
+ 2478  git push
+ 2479  git add .
+ 2480  git commit -m"real"
+ 2481  git push
+ 2482  git remote add origin git@github.com:Musxeto/oslab.git\n
+ 2483  git push
+ 2484  git remote set-url origin git@github.com:Musxeto/oslab.git\n
+ 2485  git add .
+ 2486  git remote set-url origin git@github.com:Musxeto/oslab.git\n
+ 2487  git commit -m"real"
+ 2488  git push
+ 2489  git pull
+ 2490  git config pull.rebase true
+ 2491  git push
+ 2492  git pull
+ 2493  git push
+ 2494  pkill ni3
+ 2495  pkill i3
+ 2496  pkill i
+ 2497  pkill i3
+ 2498  pkill i
+ 2499  code 
+ 2500  code .
+ 2501  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2502  ./"newBanker"
+ 2503  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2504  ./"Banker"
+ 2505  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2506  ./"Banker"
+ 2507  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2508  ./"Banker"
+ 2509  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2510  ./"Banker"
+ 2511  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2512  ./"newBanker"
+ 2513  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2514  ./"newBanker"
+ 2515  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2516  ./"newBanker"
+ 2517  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2518  ./"newBanker"
+ 2519  git add .
+ 2520  git commit -m"im cooked exam tomorrow"
+ 2521  git push
+ 2522  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2523  ./"sjf"
+ 2524  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2525  ./"sjf"
+ 2526  ./"srtf"
+ 2527  cd "/home/mus/Documents/oslab/scheduling/output"
+ 2528  ./"srtf"
+ 2529  cd "/home/mus/Documents/oslab/scheduling/output"
+ 2530  ./"srtf"
+ 2531  cd "/home/mus/Documents/oslab/scheduling/output"
+ 2532  ./"srtf"
+ 2533  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2534  ./"srtf"
+ 2535  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2536  ./"srtf"
+ 2537  git add .
+ 2538  git commit -m"sjf srtf"
+ 2539  git push
+ 2540  git add .
+ 2541  git commit -m"proirity"
+ 2542  git add .
+ 2543  git commit -m"proirity"
+ 2544  git add .
+ 2545  git commit -m"proirity"
+ 2546  git push
+ 2547  wqwwwwwwwwwwwwwwwww32www2wwwwwwwwwww
+ 2548  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2549  ./"premptive-priority"
+ 2550  git add .
+ 2551  git commmit -m"premptive priority"
+ 2552  git commit -m"premptive priority"
+ 2553  git push
+ 2554  git add .
+ 2555  git commit -m"premptive priority"
+ 2556  git push
+ 2557  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2558  ./"rr"
+ 2559  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2560  ./"rr"
+ 2561  cd "/home/mus/Documents/oslab/scheduling/output"
+ 2562  ./"rr"
+ 2563  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2564  ./"premptive-priority"
+ 2565  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2566  ./"premptive-priority"
+ 2567  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2568  ./"premptive-priority"
+ 2569  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2570  ./"premptive-priority"
+ 2571  11
+ 2572  2
+ 2573  5
+ 2574  28
+ 2575  0
+ 2576  12
+ 2577  2
+ 2578  3
+ 2579  ./"premptive-priority"
+ 2580  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2581  ./"premptive-priority"
+ 2582  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2583  ./"premptive-priority"
+ 2584  22
+ 2585  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2586  ./"premptive-priority"
+ 2587  11
+ 2588  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2589  ./"premptive-priority"
+ 2590  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2591  ./"premptive-priority"
+ 2592  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2593  ./"premptive-priority"
+ 2594  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2595  ./"premptive-priority"
+ 2596  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2597  ./"premptive-priority"
+ 2598  11
+ 2599  ./"premptive-priority"
+ 2600  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2601  ./"rr"
+ 2602  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2603  ./"rr"
+ 2604  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2605  ./"rr"
+ 2606  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2607  ./"rr"
+ 2608  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2609  ./"rr"
+ 2610  git add .
+ 2611  git commit -m"rr bothj"
+ 2612  git push
+ 2613  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2614  ./"fcfs"
+ 2615  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2616  ./"fcfs"
+ 2617  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2618  ./"fcfs"
+ 2619  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2620  ./"fcfs"
+ 2621  cd "/home/mus/Documents/oslab/scheduling/exam/output"
+ 2622  ./"fcfs"
+ 2623  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2624  ./"bankerPractice"
+ 2625  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2626  ./"bankerPractice"
+ 2627  cd "/home/mus/Documents/oslab/Lab11/output"
+ 2628  ./"newBanker"
+ 2629  git add .
+ 2630  git commit -m"real"
+ 2631  git push
+ 2632  cd "/home/mus/Documents/oslab/exam-prep/output"
+ 2633  ./"fork"
+ 2634  cd "/home/mus/Documents/oslab/exam-prep/output"
+ 2635  ./"fork"
+ 2636  cd Documents/oslab
+ 2637  code .
+ 2638  ls
+ 2639  cd exam-prep
+ 2640  cd Documents
+ 2641  cd oslab
+ 2642  cd exam-prep
+ 2643  mkdir commands-prep
+ 2644  cd commands-prep
+ 2645  touch data.txt
+ 2646  ls -l data.txt
+ 2647  ls
+ 2648  pwd
+ 2649  man mkdir
+ 2650  pwd
+ 2651  cd ..
+ 2652  cd ~/Desktop
+ 2653  cd ~/Documents/oslab/exam-prep/commands-prep
+ 2654  mkdir CS604
+ 2655  rm CS604
+ 2656  rmdir CS604
+ 2657  mkdir -p CS604/Files/CFiles
+ 2658  ls
+ 2659  cd CS604/Files/CFiles
+ 2660  cd ~Desktop|ls
+ 2661  cd ~/Desktop|ls
+ 2662  cd ~/Desktop/ | ls
+ 2663  cd ../..
+ 2664  cd ..
+ 2665  ls
+ 2666  man rm
+ 2667  rm -r CS604
+ 2668  ls
+ 2669  rm -rf *
+ 2670  ls
+ 2671  rwd
+ 2672  pwd
+ 2673* cd Documents/oslab/exam-prep
+ 2674* ls
+ 2675* gcc -o fork fork.c
+ 2676* ./gcc
+ 2677* ./fork
+ 2678* gcc -o fork fork.c\
+ 2679* gcc -o fork fork.c
+ 2680* ./fork
+ 2681* gcc -o fork fork.c
+ 2682* ./fork
+ 2683* fork();\nsa
+ 2684* gcc -o fork fork.c
+ 2685* ./fork
+ 2686* cd .. ..
+ 2687* pwd
+ 2688* ls -a
+ 2689* ls -l
+ 2690* cd/
+ 2691* cd /
+ 2692* pwd
+ 2693* cd ..
+ 2694* cd ls
+ 2695* ls
+ 2696* cd  ~
+ 2697* cd Documents/oslab/exam-prep
+ 2698* ls
+ 2699* cp fork ..
+ 2700* cd ..
+ 2701* ls
+ 2702* man mv
+ 2703* cd exam-prep
+ 2704* mv commands-prep ..
+ 2705* cd ..
+ 2706* ls
+ 2707* cp -r commands-prep ./exam-prep
+ 2708* cd exam-prep
+ 2709* ls
+ 2710* cd ..
+ 2711* ls
+ 2712* rm -rf commands*
+ 2713* ls -a
+ 2714* ls -l
+ 2715* cd exam-prep
+ 2716* ls
+ 2717* cd commands-prep
+ 2718* ls
+ 2719* touch nigga.txt niigi.txt niggu.txt
+ 2720* mkrdir -p nigggas/big niggas/small
+ 2721* mkdir -p nigggas/big niggas/small
+ 2722* mkdir -p niggas/big niggas/rapper
+ 2723* cd niggas
+ 2724* ls -l
+ 2725* rm -r
+ 2726* touch big/kutta.txt big/dalla.txt big/habshi.txt small/uzi small/wayne.txt rapper/ye.txt rapper/woah.txt
+ 2727* rm -r big
+ 2728* ls
+ 2729* mkdir kutti
+ 2730* rmdir kutti
+ 2731* mkdir -p kutti/kutta
+ 2732* rmdir kutti
+ 2733* rmdir -f kutti
+ 2734* cat > niggas in paris
+ 2735* touch niggas_in_paris.txt
+ 2736* cat > niggas
+ 2737* cat niggas
+ 2738* cat >> niggas
+ 2739* cat niggas
+ 2740* cat >> niggas
+ 2741* cat niggas
+ 2742* cat >> niggas
+ 2743* cat niggas
+ 2744* ls | wc -c
+ 2745* ls
+ 2746* ls | ws -l
+ 2747* ls | wc -l
+ 2748* ls | wc -w
+ 2749* wc -l
+ 2750* wc -l niggas
+ 2751* wc niggas_in_paris.txt
+ 2752* cat niggas_in_paris.txt
+ 2753  history
+ 2754  free
+ 2755  df
+ 2756  man df
+ 2757  df -h
+ 2758  du
+ 2759  du > temp.txt
+ 2760  touch temp.txt
+ 2761  touch temp.txtwd
+ 2762  cd ..
+ 2763  du > temp.txt
+ 2764  cat temp.txt
+ 2765  du
+ 2766  du > temp.txt
+ 2767  ls > temp.txt
+ 2768  cat temp.txt
+ 2769  history| grep cat
+ 2770  history| grep cat > temp.txt
+ 2771  wc -l temp.txt
+ 2772  wc -c temp.txt
+ 2773  wc -w temp.txt
+ 2774  wc temp.txt
+ 2775  wc temp.txt> temp.txt
+ 2776  cat temp.txt
+ 2777  ls -ld .
+ 2778  ls
+ 2779  gzip fork temp.txt
+ 2780  ls
+ 2781  gunzip fork.gz
+ 2782  ls
+ 2783  gunzip temp.txt.gz
+ 2784  tar -czf commands.tar.gz commands-prep
+ 2785  ls
+ 2786  tar -xzf commands.tar.gz
+ 2787  ls
+ 2788  tar -tzf commands.tar.gz\n
+ 2789  ps | spotify
+ 2790  ps

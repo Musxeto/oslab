@@ -1,0 +1,10 @@
+    1  sudo apt update\nsudo apt install i3 i3status i3lock i3-wm\n
+    2  sudo nano /etc/lightdm/lightdm.conf\n
+    3  sudo nano /etc/lightdm/lightdm.conf.d/01-i3.conf\n
+    4  sudo dpkg-reconfigure lightdm\n
+    5  sudo systemctl restart lightdm\n
+    6  ~/.config/i3/config
+    7  ^[[200~mkdir -p ~/.config/i3
+    8  cp /etc/i3/config ~/.config/i3/config
+    9  mkdir -p ~/.config/i3\ncp /etc/i3/config ~/.config/i3/config\n
+   10  nano ~/.config/i3/config\n
