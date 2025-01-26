@@ -14,59 +14,53 @@ struct Process {
 };
 
 void calculateTimes(struct Process processes[], int n) {
-    int completed =0,time=0,minPriorityIndex ;
+    int completed = 0, time = 0, minPriorityIndex;
+    
     // Sort processes by arrival time
-    for(int i=0;i<n;i++){
-        for(int j=i+1;j<n;j++){
-            if(processes[i].arrivalTime>processes[j].arrivalTime){
+    for (int i = 0; i < n; i++) {
+        for (int j = i + 1; j < n; j++) {
+            if (processes[i].arrivalTime > processes[j].arrivalTime) {
                 struct Process temp = processes[i];
                 processes[i] = processes[j];
                 processes[j] = temp;
             }
         }
     }
-    while(completed < n){
+
+    while (completed < n) {
         minPriorityIndex = -1;
+
         // Find the process with the highest priority that has arrived and is not completed
-        for(int i=0;i<n;i++){
-            if(processes[i].arrivalTime <=time && processes[i].remainingTime> 0 )
-                if(minPriorityIndex == -1 || processes[i].priority < processes[minPriorityIndex].priority){
+        for (int i = 0; i < n; i++) {
+            if (processes[i].arrivalTime <= time && processes[i].remainingTime > 0) {
+                if (minPriorityIndex == -1 || processes[i].priority < processes[minPriorityIndex].priority) {
                     minPriorityIndex = i;
+                }
             }
         }
 
-        if(minPriorityIndex != -1){
-            if(processes[minPriorityIndex].firstResponseTime == -1){
+        if (minPriorityIndex != -1) {
+            // If this is the first time the process is running, set its response time
+            if (processes[minPriorityIndex].firstResponseTime == -1) {
                 processes[minPriorityIndex].firstResponseTime = time;
-                processes[minPriorityIndex].responseTime = time - processes[minPriorityIndex].arrivalTime;
+                processes[minPriorityIndex].responseTime = processes[minPriorityIndex].firstResponseTime - processes[minPriorityIndex].arrivalTime;
             }
 
+            // Process the selected process (reduce its remaining burst time by 1)
             processes[minPriorityIndex].remainingTime--;
             time++;
 
-            if(processes[minPriorityIndex].remainingTime == 0){
+            // If the process is completed, update its completion time and calculate waiting and turnaround times
+            if (processes[minPriorityIndex].remainingTime == 0) {
                 processes[minPriorityIndex].completionTime = time;
                 processes[minPriorityIndex].turnAroundTime = processes[minPriorityIndex].completionTime - processes[minPriorityIndex].arrivalTime;
                 processes[minPriorityIndex].waitingTime = processes[minPriorityIndex].turnAroundTime - processes[minPriorityIndex].burstTime;
                 completed++;
-           }
-        } else{
-            time ++;
+            }
+        } else {
+            time++;  // If no process can be executed, just increment time
         }
     }
-        
-       
-
-       
-            // If this is the first time the process is running, set its response time
-           
-
-            // Process the selected process (reduce its remaining burst time by 1)
-           
-
-            // If the process is completed, update its completion time and calculate waiting and turnaround times
-            
-    
 }
 
 void printProcesses(struct Process processes[], int n) {
