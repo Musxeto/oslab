@@ -1,5 +1,16 @@
-#include <pthread.h>>
+#include <pthread.h>
+#include <stdio.h>
 #include <unistd.h>
+
+void *thread_function(){
+    printf("Inside Thread Function");
+    for (int i = 1; i < 5; i++)
+    {
+       printf("%d\n",i);
+        sleep(1);
+    }
+    return;
+}
 
 int main(){
     pthread_t xyz_thread;
@@ -9,19 +20,10 @@ int main(){
 
     for (int j = 1; j < 5; j++)
     {
-        printf("%d\n",&j);
+        printf("%d\n",j);
         sleep(1);
     }
     
     return 0;
 }
 
-void *thread_function(void *arg){
-    printf("Inside Thread Function");
-    for (int i = 1; i < 5; i++)
-    {
-       printf("%d\n",&i);
-        sleep(1);
-    }`
-    
-}
