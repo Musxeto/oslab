@@ -12,9 +12,9 @@ int count=0;
 sem_t empty;
 sem_t full;
 
-void *producer(void *arg){
+void *producer(){
     int item;
-    for(int i=0;i<10;i++){
+    for(int i=0;i<5;i++){
         item =1;
         sem_wait(&empty);
         buffer[count]= item;
@@ -26,16 +26,16 @@ void *producer(void *arg){
     return NULL;
 }
 
-void *consumer(void *arg){
+void *consumer(){
     int item;
-    for(int i=0;i<10;i++){
+    for(int i=0;i<5;i++){
         
         sem_wait(&full);
 
         count--;
         item = buffer[count];
         printf("Consumer CONsumed: %d\n",item);
-        sem_post(&full);
+        sem_post(&empty);
         sleep(2);
     }
     return NULL;
